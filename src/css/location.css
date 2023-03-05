@@ -1,0 +1,52 @@
+
+
+/* Location decsription */
+
+.location {
+background-color:  #D8D8D8; 
+}
+
+
+
+/* Location header decription */
+
+.location-header {
+color: #121212;
+font-family: 'DM Sans';
+font-weight: 500;
+font-size: 68px;
+line-height: 68px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+
+/* adress description */
+.hotel-adress {
+font-family: 'DM Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #000000;
+}
+
+.hotel-contacts-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+.hotel-phone {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.3;
+}
+
+
+
+
+
