@@ -16,6 +16,7 @@
 
   padding-top: 40px;
   padding-left: 20px;
+  padding-bottom: 64px;
 }
 
 .btns-rest-hero {
@@ -27,6 +28,7 @@
   margin-bottom: 40px;
 }
 .rest-simple-text {
+  display: inline-block;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -39,10 +41,27 @@
   color: #121212;
 
   max-width: 338px;
+  margin-top: 40px;
 }
 
 .rest-img-list {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+
+  margin-bottom: 36px;
+}
+.rest-arrs{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: right;
+    column-gap: 32px;
+}
+.rest-arr-left {
+  fill: rgba(18, 18, 18, 1);
+}
+
+.rest-arr-right {
+  fill: rgba(18, 18, 18, 0.3);
 }
