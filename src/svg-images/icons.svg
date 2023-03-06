@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-    <symbol id="icon-arr-right" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="m12.442 22.224 6.222-6.222-6.222-6.222"/>
+       <symbol id="arr-right" viewBox="0 0 18 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m2 30 14-14L2 2"/>
     </symbol>
-    <symbol id="icon-arr-left" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="m19.554 22.223-6.222-6.222 6.222-6.222"/>
+    <symbol id="arr-left" viewBox="0 0 18 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M16 30 2 16 16 2"/>
     </symbol>
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M24.001 2.666h-4a6.67 6.67 0 0 0-6.667 6.667v4h-4v5.333h4v10.667h5.333V18.666h4L24 13.333h-5.333v-4a1.335 1.335 0 0 1 1.334-1.334h4V2.666z"/>
