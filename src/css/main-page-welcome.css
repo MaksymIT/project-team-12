@@ -1,4 +1,4 @@
-.welcome{
+.welcome {
   /* mobile */
   padding: 64px 0 80px 0;
 }
@@ -13,17 +13,13 @@
 /* desktop */
 @media screen and (min-width: 1440px) {
   .welcome {
-<<<<<<< Updated upstream
     position: relative;
-=======
-    display: flex;
->>>>>>> Stashed changes
     padding: 126px 0 100px 0;
   }
 }
 
 
-.heading-welcome{
+.heading-welcome {
   font-family: 'DM Sans';
   text-transform: uppercase;
   font-weight: 500;
@@ -38,28 +34,21 @@
 @media screen and (min-width: 768px) {
   .heading-welcome {
     font-size: 36px;
-<<<<<<< Updated upstream
     line-height: 1.111111;
-=======
-    line-height: 1.1111111;
->>>>>>> Stashed changes
     width: 434px;
-    margin-bottom: 50px;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .heading-welcome {
-
-  }
+  .heading-welcome {}
 }
 
-.heading-welcome-italic{
+.heading-welcome-italic {
   font-style: italic;
 }
 
-.welcome-text{
+.welcome-paragrahp {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -76,12 +65,7 @@
 @media screen and (min-width: 768px) {
   .welcome-text {
     flex-direction: row;
-<<<<<<< Updated upstream
     letter-spacing: 1.3021428571;
-=======
-    line-height: 1.3021428571;
-
->>>>>>> Stashed changes
   }
 }
 
@@ -89,27 +73,18 @@
 @media screen and (min-width: 1440px) {
   .welcome-text {
     flex-direction: column;
-<<<<<<< Updated upstream
     margin-top: 310px;
     gap: 24px;
-=======
->>>>>>> Stashed changes
   }
 }
 
-.paragraph-welcome-1{
+.paragraph-welcome-1 {
   width: 306px;
 }
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .paragraph-welcome-1 {
-<<<<<<< Updated upstream
-
-=======
-    width: 437px;
->>>>>>> Stashed changes
-  }
+  .paragraph-welcome-1 {}
 }
 
 /* desktop */
@@ -122,26 +97,18 @@
 /* tablet */
 @media screen and (min-width: 768px) {
   .paragraph-welcome-2 {
-<<<<<<< Updated upstream
-      width: 366px;
-=======
     width: 366px;
->>>>>>> Stashed changes
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-<<<<<<< Updated upstream
   .paragraph-welcome-2 {
     width: 437px;
   }
-=======
-  .paragraph-welcome-2 {}
->>>>>>> Stashed changes
 }
 
-.welcome-img{
+.welcome-img {
   margin-top: 32px;
 }
 
@@ -163,13 +130,10 @@
   }
 }
 
-<<<<<<< Updated upstream
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .smth{
+  .welcome-text {
     position: absolute;
     left: 736px;
   }
 }
-=======
->>>>>>> Stashed changes
