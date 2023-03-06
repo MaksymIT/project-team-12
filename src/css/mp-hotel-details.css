@@ -6,8 +6,9 @@
   padding-left: 32px;
   padding-bottom: 44px;
 }
-.hd-title-text{
-    display: flex;
+.hd-title-text {
+  display: block;
+  margin-bottom: 32px;
 }
 .hd-title {
   font-family: 'DM Sans';
@@ -20,6 +21,8 @@
   text-transform: uppercase;
 
   color: #f7f7f7;
+
+  margin-bottom: 32px;
 }
 .hd-light-text {
   max-width: 362px;
@@ -34,11 +37,11 @@
 
   color: #f7f7f7;
 }
-.hp-arr-right{
-fill: rgba(255, 255, 255, 0.3);
+.hp-arr-right {
+  fill: rgba(255, 255, 255, 0.3);
 }
-.hp-arr-left{
-    fill: rgba(246, 246, 246, 1);
+.hp-arr-left {
+  fill: rgba(246, 246, 246, 1);
 }
 
 .hd-btns {
@@ -62,4 +65,9 @@ fill: rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
 
   color: #f7f7f7;
+}
+@media screen and (min-width: 768px) {
+  .hd-title-text {
+    display: inline;
+  }
 }
