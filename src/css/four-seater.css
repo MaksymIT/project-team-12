@@ -1,0 +1,123 @@
+.section {
+    margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .section {
+        margin-bottom: 80px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .section {
+        margin-bottom: 100px;
+    }
+}
+
+.four-seater-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(30 / 32);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--primary-dark-color);
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+    .four-seater-title {
+        font-size: 40px;
+        line-height: calc(44 / 40);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .four-seater-title {
+        margin-bottom: 40px;
+    }
+}
+
+.four-seater-text {
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--primary-dark-color);
+}
+
+@media screen and (min-width: 768px) {
+    .four-seater-text {
+        font-size: 18px;
+        line-height: calc(24 / 18);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .four-seater-desc {
+        margin-bottom: 28px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .four-seater-desc {
+        max-width: 475px;
+    }
+    .btn-item:first-child {
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .four-seater-desc {
+        margin-bottom: 40px;
+    }
+}
+
+.btn-list {
+    display: flex;
+    gap: 14px;
+}
+@media screen and (min-width: 1440px) {
+    .btn-list {
+        margin-left: auto;
+    }
+    .four-seater-bottom {
+        display: flex;
+    }
+}
+
+.four-seater-img-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 19px;
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .four-seater-img-list {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 40px;
+    }
+    .four-seater-img-item:first-child {
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .four-seater-img-item:nth-child(2),
+    .four-seater-img-item:nth-child(3) {
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .four-seater-img-list {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .four-seater-img-item:nth-child(3) {
+        order: -1;
+    }
+}
+
+
+
+
+
+
+
+
