@@ -16,82 +16,95 @@
       <!--===================== RESTAURANT =====================-->
       <section class="hero-restaurant">
         <div class="container">
-          <h1 class="restaurant-title">Restaurant</h1>
-          <ul class="btns-rest-hero list">
-            <li><button class="btn btn-dark" type="button">BOOK A TABLE</button></li>
-            <li><button class="btn btn-dark" type="button">VIEW A MENU</button></li>
-          </ul>
-          <ul class="rest-img-list list">
-            <li>
-              <picture>
-                <source
-                  srcset="
-                    ../img/restaurant/rest-table-lpt.jpg    1x,
-                    ../img/restaurant/rest-table-lpt@2x.jpg 2x
-                  "
-                  media="(min-width:1200px)"
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ../img/restaurant/rest-table-tbl.jpg    1x,
-                    ../img/restaurant/rest-table-tbl@2x.jpg 2x
-                  "
-                  media="(min-width:768px)"
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ../img/restaurant/rest-table-mbl.jpg    1x,
-                    ../img/restaurant/rest-table-mbl@2x.jpg 2x
-                  "
-                  media="(max-width:767px)"
-                  type="image/jpg"
-                />
+          <div class="rest-wrapper-lpt">
+            <div class="rest-wrapper-lpt-name">
+              <h1 class="restaurant-title">Restaurant</h1>
+              <ul class="btns-rest-hero list">
+                <li>
+                  <button class="btn btn-dark" type="button">
+                    BOOK A TABLE
+                  </button>
+                </li>
+                <li>
+                  <button class="btn btn-dark" type="button">
+                    VIEW A MENU
+                  </button>
+                </li>
+              </ul>
+            </div>
 
-                <img
-                  src="../img/restaurant/rest-table-mbl.jpg"
-                  alt="Tables in the restaurant"
-                  class=""
-                />
-              </picture>
-            </li>
+            <ul class="rest-img-list list">
+              <li>
+                <picture class="rest-table-slider">
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-table-lpt.jpg    1x,
+                      ../img/restaurant/rest-table-lpt@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-table-tbl.jpg    1x,
+                      ../img/restaurant/rest-table-tbl@2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-table-mbl.jpg    1x,
+                      ../img/restaurant/rest-table-mbl@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                    type="image/jpg"
+                  />
 
-            <li>
-              <picture>
-                <source
-                  srcset="
-                    ../img/restaurant/rest-food-lpt.jpg    1x,
-                    ../img/restaurant/rest-food-lpt@2x.jpg 2x
-                  "
-                  media="(min-width:1200px)"
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ../img/restaurant/rest-food-tbl.jpg    1x,
-                    ../img/restaurant/rest-food-tbl@2x.jpg 2x
-                  "
-                  media="(min-width:768px)"
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ../img/restaurant/rest-food-mbl.jpg    1x,
-                    ../img/restaurant/rest-food-mbl@2x.jpg 2x
-                  "
-                  media="(max-width:767px)"
-                  type="image/jpg"
-                />
+                  <img
+                    src="../img/restaurant/rest-table-mbl.jpg"
+                    alt="Tables in the restaurant"
+                    class=""
+                  />
+                </picture>
+              </li>
 
-                <img
-                  src="../img/restaurant/rest-food-mbl.jpg"
-                  alt="Food in the restaurant"
-                  class=""
-                />
-              </picture>
-            </li>
-          </ul>
+              <li>
+                <picture class="rest-food-slider">
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-food-lpt.jpg    1x,
+                      ../img/restaurant/rest-food-lpt@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-food-tbl.jpg    1x,
+                      ../img/restaurant/rest-food-tbl@2x.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ../img/restaurant/rest-food-mbl.jpg    1x,
+                      ../img/restaurant/rest-food-mbl@2x.jpg 2x
+                    "
+                    media="(max-width:767px)"
+                    type="image/jpg"
+                  />
+
+                  <img
+                    src="../img/restaurant/rest-food-mbl.jpg"
+                    alt="Food in the restaurant"
+                    class=""
+                  />
+                </picture>
+              </li>
+            </ul>
+          </div>
           <div class="rest-arrs-text">
             <ul class="rest-arrs">
               <li>

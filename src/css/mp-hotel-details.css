@@ -155,8 +155,8 @@
   }
   .dh-cards {
     gap: 32px;
-justify-content: center;
-margin-top: 87px;
+    justify-content: center;
+    margin-top: 87px;
   }
   .dh-two-cards {
     row-gap: 28px;
