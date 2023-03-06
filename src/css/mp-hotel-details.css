@@ -3,15 +3,13 @@
   background-color: rgba(18, 18, 18, 1);
 
   padding-top: 44px;
-  padding-left: 32px;
   padding-bottom: 44px;
 }
 
 .hd-title-text {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   gap: 32px;
-
 }
 .hd-title {
   font-family: 'DM Sans';
@@ -24,8 +22,6 @@
   text-transform: uppercase;
 
   color: #f7f7f7;
-
-  margin-bottom: 32px;
 }
 .hd-light-text {
   max-width: 335px;
@@ -78,6 +74,10 @@
 
   color: #f7f7f7;
 }
+.dh-two-img-mbl {
+  display: flex;
+  column-gap: 19px;
+}
 .dh-cards {
   display: flex;
   flex-wrap: wrap;
@@ -100,14 +100,13 @@
   height: 128px;
 }
 @media screen and (max-width: 767px) {
-  .dh-sink-tab {
+  .dh-imgs-tbl-first-list {
     display: none;
   }
-  .dh-cream-desk {
+  .dh-imgs-tbl-last-list {
     display: none;
   }
 }
-
 @media screen and (min-width: 768px) {
   .hotel-details {
     min-width: 768px;
@@ -116,12 +115,17 @@
     flex-direction: row;
     column-gap: 32px;
   }
-
-  .dh-imgs-tbl-first-list {
+  .dh-imgs-mbl {
     display: none;
   }
-  .dh-imgs-tbl-last-list {
-    display: none;
+  .dh-cards {
+    display: flex;
+    gap: 16px;
+  }
+  .dh-two-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
   }
   .dh-card-bed {
     width: 320px;
@@ -147,7 +151,15 @@
 @media screen and (min-width: 1440px) {
   .hotel-details {
     position: fixed;
-    min-width: 1024px;
+    min-width: 1440px;
+  }
+  .dh-cards {
+    gap: 32px;
+justify-content: center;
+margin-top: 87px;
+  }
+  .dh-two-cards {
+    row-gap: 28px;
   }
   .dh-card-bed {
     width: 420px;
