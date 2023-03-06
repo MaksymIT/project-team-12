@@ -9,6 +9,7 @@
 @import url('./header.css');
 @import url('./location.css');
 @import url('./general-classes.css');
+@import url('./hotel-page-hero.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
