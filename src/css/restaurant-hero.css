@@ -19,6 +19,7 @@
   padding-bottom: 64px;
 }
 
+
 .btns-rest-hero {
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +49,7 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  column-gap: 24px;
 
   margin-bottom: 36px;
 }
@@ -64,4 +66,23 @@
 
 .rest-arr-right {
   fill: rgba(18, 18, 18, 0.3);
+}
+@media screen and (min-width: 768px) {
+    .hero-restaurant {
+        max-width: 768px;
+      
+        padding-left: 34px;
+        padding-bottom: 120px;
+      } 
+      .rest-arrs-text{
+        display: flex;
+      }  
+}
+@media screen and (min-width: 1200px) {
+    .hero-restaurant {
+        max-width: 1440px;
+      
+        padding-left: 34px;
+        padding-bottom: 120px;
+      }   
 }
