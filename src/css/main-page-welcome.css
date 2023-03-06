@@ -13,6 +13,11 @@
 /* desktop */
 @media screen and (min-width: 1440px) {
   .welcome {
+<<<<<<< Updated upstream
+    position: relative;
+=======
+    display: flex;
+>>>>>>> Stashed changes
     padding: 126px 0 100px 0;
   }
 }
@@ -32,7 +37,14 @@
 /* tablet */
 @media screen and (min-width: 768px) {
   .heading-welcome {
+    font-size: 36px;
+<<<<<<< Updated upstream
+    line-height: 1.111111;
+=======
+    line-height: 1.1111111;
+>>>>>>> Stashed changes
     width: 434px;
+    margin-bottom: 50px;
   }
 }
 
@@ -60,10 +72,104 @@
   color: #000000;
 }
 
+/* tablet */
+@media screen and (min-width: 768px) {
+  .welcome-text {
+    flex-direction: row;
+<<<<<<< Updated upstream
+    letter-spacing: 1.3021428571;
+=======
+    line-height: 1.3021428571;
+
+>>>>>>> Stashed changes
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome-text {
+    flex-direction: column;
+<<<<<<< Updated upstream
+    margin-top: 310px;
+    gap: 24px;
+=======
+>>>>>>> Stashed changes
+  }
+}
+
 .paragraph-welcome-1{
   width: 306px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .paragraph-welcome-1 {
+<<<<<<< Updated upstream
+
+=======
+    width: 437px;
+>>>>>>> Stashed changes
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .paragraph-welcome-1 {
+    width: 437px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .paragraph-welcome-2 {
+<<<<<<< Updated upstream
+      width: 366px;
+=======
+    width: 366px;
+>>>>>>> Stashed changes
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+<<<<<<< Updated upstream
+  .paragraph-welcome-2 {
+    width: 437px;
+  }
+=======
+  .paragraph-welcome-2 {}
+>>>>>>> Stashed changes
 }
 
 .welcome-img{
   margin-top: 32px;
 }
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .welcome-img {
+    margin-top: 29px;
+    width: 704px;
+    height: 599px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome-img {
+    margin-top: 0;
+    width: 672px;
+    height: 599px;
+  }
+}
+
+<<<<<<< Updated upstream
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .smth{
+    position: absolute;
+    left: 736px;
+  }
+}
+=======
+>>>>>>> Stashed changes
