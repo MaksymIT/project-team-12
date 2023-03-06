@@ -1,13 +1,17 @@
 .hotel-details {
-  background-color: rgba(18, 18, 18, 1);
   max-width: 375px;
+  background-color: rgba(18, 18, 18, 1);
 
   padding-top: 44px;
   padding-left: 32px;
   padding-bottom: 44px;
 }
+
 .hd-title-text {
-  display: block;
+  flex-direction: column;
+  display: flex;
+  gap: 32px;
+
 }
 .hd-title {
   font-family: 'DM Sans';
@@ -105,16 +109,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hotel-details {
+    min-width: 768px;
+  }
   .hd-title-text {
-    display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     column-gap: 32px;
   }
 
-  .hotel-details {
-    max-width: 768px;
+  .dh-imgs-tbl-first-list {
+    display: none;
   }
-
+  .dh-imgs-tbl-last-list {
+    display: none;
+  }
   .dh-card-bed {
     width: 320px;
     height: 418px;
@@ -136,11 +144,10 @@
     height: 142px;
   }
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .hotel-details {
     position: fixed;
-    max-width: 1440px;
+    min-width: 1024px;
   }
   .dh-card-bed {
     width: 420px;
@@ -162,7 +169,7 @@
     width: 320px;
     height: 260px;
   }
-  .hd-btns{
+  .hd-btns {
     position: absolute;
     top: 44px;
     right: 32px;
