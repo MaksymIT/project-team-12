@@ -49,8 +49,8 @@
 
 .amenities-list {
     list-style-type: disc;
-    list-style-position: outside;
-    margin-left: 25px;
+    list-style-position: inside;
+    padding-left: 20px; 
 }
 
 .amenities-item {
