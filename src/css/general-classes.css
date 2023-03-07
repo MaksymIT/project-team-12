@@ -95,6 +95,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2857142857;
+  letter-spacing: -0.02em;
   cursor: pointer;
   padding: 8px 18px;
   font-family: inherit;
