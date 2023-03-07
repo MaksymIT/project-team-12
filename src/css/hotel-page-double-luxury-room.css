@@ -1,0 +1,132 @@
+/* . {
+
+}
+
+@media screen and (min-width: 768px) {
+    . {
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    . {
+        
+    }
+} */
+
+.dr-box {
+    padding-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .dr-box {}
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-box {}
+}
+
+.dr-heading {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .dr-heading {
+    font-size: 40px;
+    line-height: 1.1;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-heading {}
+}
+
+.dr-paragraph1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+    .dr-paragraph1 {
+        font-size: 18px;
+        line-height: 1.3333;
+        min-width: 299px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-paragraph1 {}
+}
+
+.dr-paragraph2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+@media screen and (min-width: 768px) {
+    .dr-paragraph2 {
+        min-width: 369px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-paragraph2 {}
+}
+
+.p-box {
+
+}
+@media screen and (min-width: 768px) {
+    .p-box {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .p-box {}
+}
+
+.dr-btn-box {
+    display: flex;
+    gap: 16px;
+}
+@media screen and (min-width: 768px) {
+    .dr-btn-box {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-btn-box {}
+}
+
+.dr-box {
+
+}
+@media screen and (min-width: 768px) {
+    .dr-box {
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dr-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
