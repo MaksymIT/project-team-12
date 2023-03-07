@@ -9,7 +9,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
   <link>
-  <link rel="stylesheet" href="/project-team-12/assets/styles-80c37269.css">
+  <link rel="stylesheet" href="/project-team-12/assets/styles-60ceb1d8.css">
 </head>
 <body>
   </html>
@@ -551,152 +551,287 @@
 </section>
 
   
+      
+      <!--=========================== MP-HOTELS-DETAILS ====================-->
       <section class="hotel-details">
-  <h2>Hotel</h2>
-  <p>
-    Book your stay with us now and experience the epitome of comfort and luxury
-    at our hotel. We guarantee you'll be thrilled with your decision.
-  </p>
+        <div class="container container-hotels-details">
+          <div class="hd-title-text">
+            <h2 class="hd-title">Hotel</h2>
+            <p class="hd-light-text">
+              Book your stay with us now and experience the epitome of comfort
+              and luxury at our hotel. We guarantee you'll be thrilled with your
+              decision.
+            </p>
+          </div>
+          <ul class="dh-cards">
+            <!--==================== ПЕРШІ ДВІ КАРТКИ-ПЛАНШЕТ -->
+            <li class="dh-imgs-tbl-first-list">
+              <ul class="dh-two-cards">
+                <li>
+                  <picture>
+                    <source
+                      media="(min-width:1440px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width:767px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_mob@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_mob@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-  <picture>
-    <source
-      media="(min-width:1200px)"
-      srcset="/project-team-12/assets/bed_desk@1x-5bc349a4.webp 1x, /project-team-12/assets/bed_desk@2x-8eef98b1.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:1200px)"
-      srcset="/project-team-12/assets/bed_desk@1x-d5084f23.jpg 1x, /project-team-12/assets/bed_desk@2x-ee07a4d3.jpg 2x"
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="/project-team-12/assets/bed_tab@1x-60575900.webp 1x, /project-team-12/assets/bed_tab@2x-ae8edbb1.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="/project-team-12/assets/bed_tab@1x-a63fd9cf.jpg 1x, /project-team-12/assets/bed_tab@2x-ecb1ca21.jpg 2x"
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="/project-team-12/assets/bed_mob@1x-ba36511a.webp 1x, /project-team-12/assets/bed_mob@2x-094285e2.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="/project-team-12/assets/bed_mob@1x-add4439b.jpg 1x, /project-team-12/assets/bed_mob@2x-6c661e0e.jpg 2x"
-      type="image/jpg"
-    />
+                    <img
+                      src="../img/mp-hotel-details/towel_mob@1x.jpg"
+                      alt="Towel"
+                      class="dh-card-towel"
+                    />
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source
+                      media="(min-width:1440px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:320px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_mob@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_mob@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-    <img
-      src="/project-team-12/assets/bed_mob@1x-add4439b.jpg"
-      alt="Bed"
-      width="335"
-      height="417"
-      class=""
-    />
-  </picture>
+                    <img
+                      src="../img/mp-hotel-details/bath_mob@1x.jpg"
+                      alt="Bath"
+                      class="dh-card-bath"
+                    />
+                  </picture>
+                </li>
+              </ul>
+            </li>
+            <!--========================= ГОЛОВНЕ ЗОБРАЖЕННЯ-ЛІЖКО -->
+            <li class="dh-main-img">
+              <picture>
+                <source
+                  media="(min-width:1440px)"
+                  srcset="
+                    ../img/mp-hotel-details/bed_desk@1x.jpg 1x,
+                    ../img/mp-hotel-details/bed_desk@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ../img/mp-hotel-details/bed_tab@1x.jpg 1x,
+                    ../img/mp-hotel-details/bed_tab@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(max-width:767px)"
+                  srcset="
+                    ../img/mp-hotel-details/bed_mob@1x.jpg 1x,
+                    ../img/mp-hotel-details/bed_mob@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
 
-  <picture>
-    <source
-      media="(min-width:1200px)"
-      srcset="
-        ./img/mp-hotel-details/towel_desk@1x.webp 1x,
-        ./img/mp-hotel-details/towel_desk@2x.webp 2x
-      "
-      type="image/webp"
-    />
-    <source
-      media="(min-width:1200px)"
-      srcset="
-        ./img/mp-hotel-details/towel_desk@1x.jpg 1x,
-        ./img/mp-hotel-details/towel_desk@2x.jpg 2x
-      "
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="data:image/webp;base64,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 1x, /project-team-12/assets/towel_tab@2x-1eefcd10.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="/project-team-12/assets/towel_tab@1x-7d229be9.jpg 1x, /project-team-12/assets/towel_tab@2x-64c601c3.jpg 2x"
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="data:image/webp;base64,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 1x, /project-team-12/assets/towel_mob@2x-12140aa1.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="/project-team-12/assets/towel_mob@1x-32628a03.jpg 1x, /project-team-12/assets/towel_mob@2x-9acca333.jpg 2x"
-      type="image/jpg"
-    />
+                <img
+                  src="../img/mp-hotel-details/bed_mob@1x.jpg"
+                  alt="Bed"
+                  class="dh-card-bed"
+                />
+              </picture>
+            </li>
+            <!--======================== ДВА ЗОБРАЖЕННЯ НА СМАРТФОН -->
+            <li class="dh-imgs-mbl">
+              <ul class="dh-two-img-mbl">
+                <li>
+                  <picture>
+                    <source
+                      media="(min-width:1440px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width:767px)"
+                      srcset="
+                        ../img/mp-hotel-details/towel_mob@1x.jpg 1x,
+                        ../img/mp-hotel-details/towel_mob@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-    <img
-      src="/project-team-12/assets/towel_mob@1x-32628a03.jpg"
-      alt="Towel"
-      width="158"
-      height="128"
-      class=""
-    />
-  </picture>
+                    <img
+                      src="../img/mp-hotel-details/towel_mob@1x.jpg"
+                      alt="Towel"
+                      class="dh-card-towel"
+                    />
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source
+                      media="(min-width:1440px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:320px)"
+                      srcset="
+                        ../img/mp-hotel-details/bath_mob@1x.jpg 1x,
+                        ../img/mp-hotel-details/bath_mob@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-  <picture>
-    <source
-      media="(min-width:1200px)"
-      srcset="/project-team-12/assets/bath_desk@1x-b193fcf9.webp 1x, /project-team-12/assets/bath_desk@2x-4d18c1c5.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:1200px)"
-      srcset="/project-team-12/assets/bath_desk@1x-bed4467b.jpg 1x, /project-team-12/assets/bath_desk@2x-e73b29e3.jpg 2x"
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="/project-team-12/assets/bath_tab@1x-e9193cd2.webp 1x, /project-team-12/assets/bath_tab@2x-64f74f1a.webp 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:768px)"
-      srcset="/project-team-12/assets/bath_tab@1x-782fccd4.jpg 1x, /project-team-12/assets/bath_tab@2x-5037064c.jpg 2x"
-      type="image/jpg"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="data:image/webp;base64,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 1x, data:image/webp;base64,UklGRt4PAABXRUJQVlA4INIPAACQPwCdASqeAIAAPkkgjkWioiETCRVYKASEs7MgLIRXr07FHCzbYGmqyqnS3514nORe0Xsw/3Xfb8zdRF4faI4J/5HmhyFd9BQF/S/rK97P9/9Q/peE7MIMsYH3he8Zg7Um72oZ0DuG0IhIqQD6OQunBme8XKyFDrY1GhfUJ5ZG1+50a/BWGhxdJyLENLfQNPXoKxT+GYR+mkUAjE1fNUFRVpA+0wnP62boWqJD+ykAO2+Wie0HYnjZe4pVSBNyHQNFLZ3fuHVHzRhddXuexLyQsAcdMuLyRSWtCc77svHyCqZ4Cj3tbB67iWmcVsNfUN7tT8Ne7+/jRQO8DNqL87MCn1u2aIg4ZWyS9GFAfaZN5VCbixTKmQnEePpAf/Ji/KvbBiPuSAnP9UPbjNJUPi2wbGGvHPo3rGOv4pQHlYeCRMO87H+fLrhY6yRl6ZBCrpF2/oKEGht6LzRSon4qNfE7Y6Exh/KWSks+cxxn4b7Vw6BEnzufSfqd8leRHzBpn7ibOAyIyKTi9tUYPcz/VsLK/hSfdAiktxMzBHYX2/0LQ8H+/wjFTMpgn3XfK4K4dplWXEov42p/VciUNdhTs3BaTS/sXlSxBHwBSzgmXtNREfl2vwCFDiMzTprrCJVJzXbdtmph3KAFV9xwvlgMuUHgsaMSHE04+RuNKBR8qGOJxvjad51AAP7hI7+QK2cnJ8rVJPw0cmxZtJMprhf0E2iYEJhBrbIRm83j+zRAdnaKQP9m7CddCR7pGR9hWwcLN+by9Nv3eshsjAQc9XEFfy25iauVnu0pm2/ICoYiFpmU4RA1updaj1vqDCvU6Y/j9p3sy8xH8/yIqxhsIovsggOYsX5InB9wL1MBEFVSDhluNeZpb2TaJwRhZyTlZY9eLxL3fGyRVeWiPlrmlDPfQ/vDRjIC8ep9g1b+SqydvMiffY+ZLVgQoqJbWrYHxIqsP5sX326xIa4CkzltaX/S406J6EbASWtX6rCZuF2j5uXUZIprUrJIt5zTgOsk4aIZ/u+L9xItb+GU6DB9Kja3RbxaBG++0ijcNcR6aRAgKy2CEkqqz6GYi3Njl+FkQP39KPhstuzVFnhnCcvtAXT1SjkkzKzip8Uiw2eA1mmTt67RVlL6QKCMSyzSG2TXtJHPoPE2EbI2dA/2xqjD8KLWwJebNF+RdZmdHqolFIUnx6VIiUM9Z+Tga0xkYH9Ga0VzM7PkWbfq4YgLwPmLLSVmXl2qKgqF0RXcYtR4fXzbFgWQznjjbQ1BkfmdK5ynGI5lq8M7Mxv8MLu0BTFQzwG7f90LXkxXiy6jf7v33F0ftXzI14IEXtwJ9W+ljyWdT/IJ5hFMO91OtJ2rQVgJd7hGoeLau4rpoMEE4Dm7apA1y2qiKDbk3upz21k0B5tJjY7ZUlrYEkym/dvyZdh6FdIHpCPoMv+zh8MVAQd1PYHndZC22I/Du+5TdQpSqzD9LkCvwk/iVibFFoZjDFT3e+I5FxxUn2rZ2/nuE+HZ/2gwYJdQtfXNZdOghXSRDPEWoB2qTf/mW8IFCNga5AE7UZBFvdoE4PQPPLMRJK1L7sA1cfVvHaRzprWWf91UccTgwEZATJyPwQDrHGCnxGHFJgKr1a/H3YlW0MKoTnZ0vN19hgKFDjsv9NTu27EGkGfEVC4cN0jvgJgHWvPB3EFuowUKJUalb/MwKrACSV5s3Ue8qkgItL98rHL22RovFQY4NITDqKbCRRbzUMnuFaaxcJmXUWEw4oT74PQmX//U3S5IXw5pygEZC4FNZy3pmX46o/vQ4DI2hsuyrws4AXGwaE3bMjia+wGJWjZXdHu+fsgx4ietD0JHztNAA+HCJDHrCgtKPl5JucrRsrzpKw30KBh25qaO0Tk+DPGCkTvn7DVXPTooVOmxFZ2BuyQJB6G528seVPLoGD0/ZbPe0sWOzpYpEMbyiLJhwjcaq37VJl6ro/xltoMrbJUz6liaRO4TG662rXC4SGwqQzBAgYbDkWgAZNiYIVJD1E7NS45PhInI83LYGaQq1hg+gD8qXTHucyJQ0r6HzOAfpv2eROBc4QTEFbO8ird0AAXSFQ3Bs1kFl7s1hEN1qpYYk0Gl8tXxZ/PhlkUNVPSrZ3/gBQ9ahAs99v6NXt12TkI9JO+PPqlyThD36l//F0s7oPy/vEslvHKzHtpqWzauZ1P7+UzjPeJARLPm2Y4i05MVarN04FSBUSeavXbWuo2DJL1BWY0388Ta6FS4bKsC9xmIKXzEzqVk7dEhGXIwH5Omcer6Hze2DFBSKA5yHMvXZW+u3FR+NMPezCjHLIwVQrUEZLaevLkGklJH0sS/Txckcrv1nB9OjNVIcRkHszZIKrCiJ5hYVTaBd/m4j0ueQFNUeQxxirAnLS9dDKdnCp0OQop/74j7pDHLHN6cQ8P0/h6iH8Nk0S6Nstkqx2NsoctkOyRfBjYbWflkzjX6vyS7O2u/cri3/0W64BxHkfiZp68vhv0D3sA9IVp9FjuW1OEDccQExc3vXMPlIsEJ+WfHeC2wcWTmFlCkq7VUjNHj+24jPOcaoO97WGhRFCEIJF/+4Ol6dJ+tw/NDUzzSKlpFKyFgHzTwZ84dD/p1i35Tt5cGeXQ9A12fbDPXfe/2t5wlcJNcoGApoNY6LvlynPjfN7nodOJWqLY/+FHebFo0QP3PkQyGIQb0doUXzny4L5z88XaZzdo4Hp2aTeWrDLdSGhWn55ScEGYGCEoZWH0UZOGXUrbcn55BTgaNB40LUXo3KPPZeH2+iWljD1n+kijSGVhbwXitQ9jY5lDh2/80jZIsJU0SbT8+QCp/dLD65aT4z5K6xn7CmJeF2cMlW7Pfchml61tnKhTyslfYrfmrwS9TsUVImK3UCfWigrHZfEZ3ErviNUMSV2np7anBrYlhLv8iYpd29pHZyqwibVZJIISTMTo3T5EG+ClrGt8lBvr0etjHsFf8/dwYs2Qew2+KQl3JUGI8Mc3CqC8duAo4Y1eDe+/hdUwwN+rV9OYt48Ms6CFxpQSV7l3AvSfGGOAxIvTJ+W4jwkyX9fBMxvvAc01dIWDCTh2gBmuhmn8W8hbUie2n5A07Ovcr84ykWmqNJxz1q50uPDHRT3xSVWeYKG8ne1GkpfZ9hczKjOnlDHntLMMGoDydxD5m7yFLBQCH4FMPZIr0FuKSX+w1FjsjqOs6l80oCJ4zCa0pTBVuKwT3/uM+WDomxdLqNR+uK6PBsv0QWQYqhbGk9SKUd+gs298hoo9weA4O5pxWcyccoRwJMav2Dmr5DZEVYOdGjb0gBDaS1eK8Q+YtqD9MhQ9779z2rPe7KK77UAvHqOKwYvrU5EfY+uyWiuABsfUSuhNZT2iwZz0J3YKrK0/IDHRglBACgjwAzf+lJenFWETgvpsGcgjuyh6ID0NeBIuEjyvtbRLTIYMBfpSiJiiFkCu8UPoG9iIe0Uu6KNw7bjbDc8rfk46CYvyONu0P77XUWhOqSE9Kc9Ckha244E25dKyQcDJT4VsV5gO/+jwYkXhKY/8w8Wkz7iH8GbejnaaHfrfZSw4RtDXwVXfg9vnS70MW8VuAlpbSlJSOHoqg5eyMOpy7ojxexvEYfjcn9Y+15WNA/Hq7ujOak7tJKF2wa9fDXtEuGve+J9gREmcyFlgoGNVlkCJLe8GWjMYRRoBrMlfZAu/Vn7Pis4c/Qo+DWK22kVYun5djD0BeSSrlx8xDxNTah6K2a2gIsQQTv+sjakwU1R16d8QOBu24EhFmRgFICpZ32/K47F27284Y/ueEZuVop4WjhiNIAMVmCHP/7R0Z2dx1qbey6qXIBmYZ+CUHgFlonhtZjLAnap/ZfyiX7EUlnXKX7dpCUXizNjRHfB1rmdVBH6ZAVfRL6b/orONYXrltMJy+dD+TU86t/x+REoxzhjwV5Am+V86Pa73xgBzxizLcrilo6TIJZw6mhFeFwTbrrqTXY0YiW6KFK3qoyT3wIDRwuT3bNQBw3v/rOtlItaVfbfLuAyPMr23wAmnBVscxnnsQ5TTIw86tUb6Jxb7LULQ7hEpjYarl8V/u7ft5TsUT5q+IauMZSAzzCE79Xfc8aCVuhJ/tt/cbCAR1yQ8C4ZvY6T8ct8fSQaKeD7e9bNwmCL4htXLg9r6mwLFQu105CbXZmkV8pJCcfoLhAAMPc95JSZ1gs4gaYv57EL/NIS1tTvpoQqBu4zBnfYf2VeSgIb8q2e/DAvqxMXrFdMHu/E5wznUBer9WVnDSnVddBeeMzzBnq1k/IrcRlYvep7Gn+4wah5JFvULDGj5Goh4l+tvx7tAqBaJfRH+kSPzsnwvpSXLPv3690zRElumffMy6fkL9m8GQEYY8+WHZACDpt+q1zNt2YkZ1dJNjg5H6NVvKIAqPOsZrdn1cXfDthQjURXUNWosfqVDhsxjnPMpRGgmxFXzv0YerTf1xcyg2LjmOr0JMdfxHo+o2VGb7cdOfVAE/bGeb0YjuLhAqKUJQnuL36xsI+/1fWnapAJGQMPbN+GIwl3DDZDD1TGwm4ZlCoCqXifOCTzmc+LO5CkbNId/XbVmFxhSZcn1EsOiwuKff+yBOuHlatZpS6txm1WPXhoXP+4w/jmBWpZi+53v7OjhdC/XBMTxRqa4BuzoWk7iOQyxxzlSgl9xOEhAYtTD4oEXfXeEPyCFdz4j9h+2tMSnejtx0pxuMKzjOowFvoXkzaI4+gxHkKwDAlXRp8PeZoEU35wrNfkemWyC/gH9on0PotXL5wGCQa9ibgRe3zgfyCqyuOPvudq5ggVwDttQLHWH0SviOT1TCsHjItCz/QVhWpt0s+PbH/M4XC5+BVNKp5xKFtyxUvCdz4XgCAhSjsQkPkQORN7SsL2D+N2m391bKKDQ3FOE0AYoU/HVhvEJToT3mMvNmSXNHcm3e5bKLnIvwbkAOSTq1uQ4zpFPJrsQcxyUEmfrkW6iVHAXptIx5epzfJiFjMDlUFGNiyEtd76hGbGvB1pTE0eFwAj9k4BvuHTTRPFXX8UT1N/4k+CYf6u2Q4bjPEuOKyMkf5P99n7h2S54W1gx4f+uNZIWjn8fH7W2Lar1hvBBumr//8VG5SWADv8OMvKIrP3GAwKcLrQ/2J8jK6tiNM9dOYOxduVLf5OphXTOtSbE7ViEabDpr4hCfhbI5+6qmdLMX3oIq0MOJhjZgWqKSzmdX4H0xLyJsXXoBawe6/ZLOvFaRYGkgyFJrF+7b6Z3xNzMFXjM0H7DYS1WHtm42dGdA+vCBF8nVDIvrxAYwxABhEoo/fgCVzLsAID3VB6a/Z7o8934fnQycFZpA2V75yRZWN8Jrn2/FUJl83WPdZu4QykmqcCBJxFcD7l4Yz2D8geG4ABWZ+u9srBF8rlNyiK2njecVokI/ock9/24AAAA= 2x"
-      type="image/webp"
-    />
-    <source
-      media="(min-width:320px)"
-      srcset="/project-team-12/assets/bath_mob@1x-cf191811.jpg 1x, /project-team-12/assets/bath_mob@1x-cf191811.jpg 2x"
-      type="image/jpg"
-    />
+                    <img
+                      src="../img/mp-hotel-details/bath_mob@1x.jpg"
+                      alt="Bath"
+                      class="dh-card-bath"
+                    />
+                  </picture>
+                </li>
+              </ul>
+            </li>
+            <!--=============== ДВА ЗОБРАЖЕННЯ ПІСЛЯ ЛІЖКА-ПЛАНШЕТ -->
+            <li class="dh-imgs-tbl-last-list">
+              <ul class="dh-two-cards">
+                <li >
+                  <picture class="dh-sink-tab">
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ../img/mp-hotel-details/sink_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/sink_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/sink_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/sink_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-    <img
-      src="/project-team-12/assets/bath_mob@1x-cf191811.jpg"
-      alt="Bath"
-      width="158"
-      height="128"
-      class=""
-    />
-  </picture>
+                    <img
+                      src="../img/mp-hotel-details/sink_tab@1x.jpg"
+                      alt="Bath"
+                    />
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source
+                      media="(min-width:1200px)"
+                      srcset="
+                        ../img/mp-hotel-details/cream_desk@1x.jpg 1x,
+                        ../img/mp-hotel-details/cream_desk@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="
+                        ../img/mp-hotel-details/cream_tab@1x.jpg 1x,
+                        ../img/mp-hotel-details/cream_tab@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
 
-  <svg class="" width="24" height="24">
-    <use href="../svg-images/arr-left.svg"></use>
-  </svg>
-  <svg class="" width="24" height="24">
-    <use href="../svg-images/arr-right.svg"></use>
-  </svg>
+                    <img
+                      src="../img/mp-hotel-details/cream_tab@1x.jpg"
+                      alt="Bath"
+                      class="dh-cream-desk"
+                    />
+                  </picture>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
-  <button type="button">Book a room</button>
-  <button type="button">View room</button>
-</section>
+          <ul class="hd-arrs">
+            <li>
+              <svg class="hd-arr-right" width="24px" height="24px">
+                <use href="../img/svg-images/icons.svg#icon-arr-left"></use>
+              </svg>
+            </li>
+            <li>
+              <svg class="hd-arr-left" width="24px" height="24px">
+                <use href="../img/svg-images/icons.svg#icon-arr-right"></use>
+              </svg>
+            </li>
+          </ul>
+
+          <ul class="hd-btns">
+            <li class="">
+              <button class="btn btn-light hd-btn" type="button">
+                BOOK A ROOM
+              </button>
+            </li>
+            <li class="">
+              <button class="btn btn-light hd-btn" type="button">
+                VIEW ROOM
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--===================== /MP-HOTELS-DETAILS =====================-->
+
   
       <!-- Main Page Location and Contacts HTML -->
 
