@@ -105,7 +105,7 @@
     display: flex;
     gap: 16px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { 
     .dr-btn-box {
         justify-content: flex-end;
     }
