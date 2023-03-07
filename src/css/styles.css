@@ -11,6 +11,7 @@
 @import url('./general-classes.css');
 
 @import url('./restaurant-hero.css');
+@import url('./mp-hotel-details.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
