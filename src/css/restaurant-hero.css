@@ -96,7 +96,7 @@
     max-height: 548px;
   }
   .rest-arrs-text {
-    position: fixed;
+    position: absolute;
     width: 768px;
   }
   .rest-arrs {
