@@ -10,8 +10,7 @@
 @import url('./location.css');
 @import url('./general-classes.css');
 @import url('./main-page-welcome.css');
-
-@import url('./hotel-page-double-luxury-room.css')
+@import url('./hotel-page-double-luxury-room.css');
 @import url('./hotel-page-double-luxury-room.css');
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
