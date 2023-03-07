@@ -1,0 +1,478 @@
+:root {
+  --background-color: #121212;
+  --text-lighyt: #f7f7f7;
+  --text-gray: #575757;
+  --text-about-title: #484848;
+
+  /* font-family */
+  --font: 'DM Sans';
+}
+/**
+  |============================
+  | hero
+  |============================
+*/
+
+.main-page-hero-wrap {
+  position: relative;
+
+  padding-top: 507px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+
+  color: var(--text-lighyt);
+}
+
+@media screen and (min-width: 768px) {
+  .main-page-hero-wrap {
+    padding-top: 606px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-page-hero-wrap {
+    padding-top: 274px;
+  }
+}
+
+.hero-section {
+  max-width: 375px;
+
+  background-color: var(--background-color);
+  background-image: url(../img/images/hero/main-page-hero-desc@1x.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 118px;
+  background-size: 335px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url(../img/images/hero/main-page-hero-mobile@2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    max-width: 768px;
+    background-image: url(../img/images/hero/main-page-hero-tablet@1x.webp);
+    background-position: 50% 128px;
+    background-size: 542px 710px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: url(../img/images/hero/main-page-hero-tablet@2x.webp);
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section {
+    max-width: 1440px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    background-image: url(../img/images/hero/main-page-hero-desc@1x.webp);
+    background-size: 542px 770px;
+    background-position: right;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: url(../img/images/hero/main-page-hero-desc@2x.webp);
+    }
+  }
+}
+
+.hero-section-title {
+  margin-bottom: 124px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section-title {
+    font-size: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-section-title {
+    margin-bottom: 196px;
+
+    font-size: 180px;
+    text-align: left;
+  }
+}
+
+.hero-btn-list {
+  position: absolute;
+  top: 611px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-btn-list {
+    top: 788px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-btn-list {
+    top: 650px;
+    right: -30px;
+    left: auto;
+    transform: translate(0 0);
+  }
+}
+
+.main-page-btn {
+  box-sizing: border-box;
+  padding: 8px 18px;
+  display: inline;
+  width: 136px;
+  height: 34px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: left;
+
+  color: var(--text-lighyt);
+  background-color: transparent;
+
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
+}
+
+.main-page-btn:hover,
+.main-page-btn:focus {
+  background-color: var(--text-lighyt);
+  color: var(--background-color);
+}
+
+.hero-desc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-desc-list {
+    flex-direction: row;
+  }
+}
+
+.hero-desc-list-ithem {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hero-desc-1 {
+  width: 338px;
+}
+.hero-desc-2 {
+  width: 314px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/**
+  |============================
+  | about
+  |============================
+*/
+
+.about-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section-list {
+    gap: 100px;
+  }
+}
+
+.about-section {
+  max-width: 375px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section {
+    max-width: 1440px;
+  }
+}
+
+.about-list-ithem {
+  position: relative;
+}
+
+.rating-wrap {
+  box-sizing: border-box;
+  display: flex;
+
+  padding-top: 10px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  width: 212px;
+  height: 61px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133.02%;
+
+  color: var(--text-gray);
+  background-color: var(--background-color);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.rating-wrap > img {
+  width: 41px;
+  height: 41px;
+  margin-right: 12px;
+}
+
+.rating-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section-raiting-digit {
+  color: var(--text-lighyt);
+}
+
+.maria {
+  position: absolute;
+  top: 420px;
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .maria {
+    top: 176px;
+    left: 370px;
+  }
+}
+
+.about-section-rating-name {
+  margin-bottom: 7px;
+  margin-right: auto;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+
+  color: var(--text-lighyt);
+}
+
+.about-room-img {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-room-img {
+    margin-bottom: 32px;
+    width: 482px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-room-img {
+    margin-bottom: 0;
+  }
+}
+
+.about-bathroom-img {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-bathroom-img {
+    position: absolute;
+    top: 209px;
+    left: 300px;
+
+    margin-bottom: 0;
+    width: 404px;
+  }
+}
+
+.about-section-rest-hotel-wrap {
+  max-width: 355px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section-rest-hotel-wrap {
+    width: 472px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section-rest-hotel-wrap {
+    position: absolute;
+    top: 199px;
+    left: 846px;
+    width: 530px;
+  }
+}
+
+.about-ithem-title {
+  margin-bottom: 18px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: var(--text-about-title);
+}
+
+.about-rest-hotel-desc1 {
+  margin-bottom: 14px;
+}
+
+.about-rest-hotel-desc1,
+.about-rest-hotel-desc2 {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--background-color);
+}
+
+.about-business-class-desc {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--background-color);
+}
+
+.about-tables-img {
+  margin-left: auto;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-tables-img {
+    width: 530px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-tables-img {
+    margin-bottom: 0;
+  }
+}
+
+.about-business-hotel-desc {
+  margin-bottom: 40px;
+  width: 263px;
+}
+
+.about-business-hotel-wrap {
+}
+
+@media screen and (min-width: 768px) {
+  .about-business-hotel-wrap {
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-business-hotel-wrap {
+    position: absolute;
+    top: 127px;
+    left: 0;
+    gap: 54px;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  .about-business-hotel-desc {
+  }
+} */
+.about-hall-img {
+}
+
+@media screen and (min-width: 768px) {
+  .about-hall-img {
+    width: 266px;
+  }
+}
+
+.alexander {
+  position: absolute;
+  top: 272px;
+  left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .alexander {
+    top: 303px;
+    right: 425px;
+    left: auto;
+  }
+}
