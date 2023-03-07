@@ -3,11 +3,11 @@
   | include css partials with
   | default @import url()
   |============================ */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 @import url('./reset.css');
 @import url('./vite-promo.css');
