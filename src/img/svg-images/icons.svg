@@ -16,5 +16,11 @@
     <symbol id="icon-twitter" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.08" d="M30.668 4.001a14.542 14.542 0 0 1-4.187 2.04 5.975 5.975 0 0 0-6.637-1.661 5.977 5.977 0 0 0-3.843 5.661v1.333a14.211 14.211 0 0 1-12-6.04s-5.333 12 6.667 17.333a15.519 15.519 0 0 1-9.333 2.667c12 6.667 26.667 0 26.667-15.333a5.966 5.966 0 0 0-.107-1.107 10.288 10.288 0 0 0 2.773-4.893z"/>
     </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.114" d="M29.334 2.667 2.667 29.334m0-26.667 26.667 26.667"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 48 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="7.2" d="m4 6 20 20L44 6"/>
+    </symbol>
   </defs>
 </svg>
