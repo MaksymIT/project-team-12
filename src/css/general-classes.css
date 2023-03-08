@@ -16,6 +16,7 @@
 *::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,8 +26,8 @@ body {
 
 .container {
   /* mobile */
-  min-width: 320px;
-  max-width: 335px;
+  max-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -34,7 +35,7 @@ body {
 /* tablet */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
@@ -42,7 +43,7 @@ body {
 /* desktop */
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1376px;
+    max-width: 1440px;
   }
 }
 
