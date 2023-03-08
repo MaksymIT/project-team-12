@@ -4,12 +4,12 @@
   | default @import url()
   |============================ */
 
+@import url('./general-classes.css');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
-@import url('./location.css');
-@import url('./general-classes.css');
 @import url('./hero-about.css');
+@import url('./location.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

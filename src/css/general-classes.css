@@ -1,47 +1,12 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@anakonder 
-MaksymIT
-/
-project-team-12
-Public
-generated from goitacademy/vanilla-app-template
-Fork your own copy of MaksymIT/project-team-12
-Code
-Issues
-Pull requests
-2
-Actions
-Projects
-Wiki
-Security
-Insights
-project-team-12/src/css/general-classes.css
-@millenialia
-millenialia Update general-classes.css
-Latest commit 0a19313 yesterday
- History
- 1 contributor
-144 lines (121 sloc)  2.33 KB
-
-:root{
+:root {
   /* Colors */
 
   --primary-dark-color: #121212;
-  --primary-light-color: #F6F6F6;
-
+  --primary-light-color: #f6f6f6;
 
   /* Others */
   --anim-norm: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 
 *,
 *::after,
@@ -131,7 +96,8 @@ body {
   cursor: pointer;
   padding: 8px 18px;
   font-family: inherit;
-  transition: background-color var(--anim-norm), color var(--anim-norm), border-color var(--anim-norm);
+  transition: background-color var(--anim-norm), color var(--anim-norm),
+    border-color var(--anim-norm);
 }
 
 /* tablet */
@@ -174,18 +140,3 @@ body {
   color: var(--primary-dark-color);
   border-color: var(--primary-light-color);
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-project-team-12/general-classes.css at main · MaksymIT/project-team-12
