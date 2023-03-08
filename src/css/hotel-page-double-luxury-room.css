@@ -1,22 +1,7 @@
-/* . {
-
-}
-
-@media screen and (min-width: 768px) {
-    . {
-        
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    . {
-        
-    }
-} */
-
 .dr-box {
     padding-bottom: 64px;
 }
+
 @media screen and (min-width: 768px) {
     .dr-box {
         position: relative;
@@ -26,7 +11,7 @@
 @media screen and (min-width: 1200px) {
     .dr-box {
         position: relative;
-        }
+    }
 }
 
 .dr-heading {
@@ -38,10 +23,11 @@
     text-transform: uppercase;
     margin-bottom: 32px;
 }
+
 @media screen and (min-width: 768px) {
     .dr-heading {
-    font-size: 40px;
-    line-height: 1.1;
+        font-size: 40px;
+        line-height: 1.1;
 
     }
 }
@@ -60,6 +46,7 @@
     text-transform: uppercase;
     margin-bottom: 24px;
 }
+
 @media screen and (min-width: 768px) {
     .dr-paragraph1 {
         font-size: 18px;
@@ -84,12 +71,13 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
+
 @media screen and (min-width: 768px) {
     .dr-paragraph2 {
-    font-size: 18px;
-    line-height: 1.3333;
-    min-width: 299px;
-    
+        font-size: 18px;
+        line-height: 1.3333;
+        min-width: 299px;
+
     }
 }
 
@@ -98,12 +86,13 @@
         max-width: 299px;
     }
 }
+
 p:last-child {
     margin-bottom: 36px;
 }
-.pbox {
 
-}
+.pbox {}
+
 @media screen and (min-width: 768px) {
     .pbox {
         display: flex;
@@ -121,7 +110,8 @@ p:last-child {
     display: flex;
     gap: 16px;
 }
-@media screen and (min-width: 768px) { 
+
+@media screen and (min-width: 768px) {
     .dr-btn-box {
         justify-content: flex-end;
     }
@@ -135,23 +125,21 @@ p:last-child {
     }
 }
 
-.dr-box {
+.dr-box {}
 
-}
 @media screen and (min-width: 768px) {
-    .dr-box {
-        
-    }
+    .dr-box {}
 }
 
 @media screen and (min-width: 1200px) {
     .dr-box {}
-    
+
 }
 
 .mob-set-img1 {
     margin-bottom: 20px;
 }
+
 @media screen and (min-width: 768px) {
     .mob-set-img1 {}
 }
@@ -163,10 +151,11 @@ p:last-child {
 }
 
 .mob-set-img2 {
- display: flex;
- gap: 19px;
- margin-bottom: 32px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 32px;
 }
+
 @media screen and (min-width: 768px) {
     .mob-set-img2 {
         display: block;
@@ -174,14 +163,11 @@ p:last-child {
 }
 
 @media screen and (min-width: 1200px) {
-    .mob-set-img2 {
-
-    }
+    .mob-set-img2 {}
 }
 
-.img-dr-1 {
+.img-dr-1 {}
 
-}
 @media screen and (min-width: 768px) {
     .img-dr-1 {
         width: 335px;
