@@ -1,12 +1,16 @@
-:root {
+
+:root{
   /* Colors */
 
   --primary-dark-color: #121212;
-  --primary-light-color: #f6f6f6;
+  --primary-light-color: #F6F6F6;
+
 
   /* Others */
   --anim-norm: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
 
 *,
 *::after,
@@ -96,8 +100,9 @@ body {
   cursor: pointer;
   padding: 8px 18px;
   font-family: inherit;
-  transition: background-color var(--anim-norm), color var(--anim-norm),
-    border-color var(--anim-norm);
+
+  transition: background-color var(--anim-norm), color var(--anim-norm), border-color var(--anim-norm);
+
 }
 
 /* tablet */
@@ -139,4 +144,6 @@ body {
   background-color: var(--primary-light-color);
   color: var(--primary-dark-color);
   border-color: var(--primary-light-color);
+
 }
+
