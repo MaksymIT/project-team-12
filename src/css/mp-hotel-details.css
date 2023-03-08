@@ -150,7 +150,7 @@
 }
 @media screen and (min-width: 1440px) {
   .hotel-details {
-    position: absolute;
+    position: relative;
     min-width: 1440px;
   }
   .dh-cards {

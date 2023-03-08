@@ -11,7 +11,7 @@
 }
 
 .hero-restaurant {
-  background: #f6f6f6;
+  background: rgba(246, 246, 246, 1);
   max-width: 375px;
 
   padding-top: 40px;
@@ -27,16 +27,15 @@
   margin-bottom: 40px;
 }
 .rest-simple-text {
-  display: inline-block;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-
+  
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
+  
   color: #121212;
 
   max-width: 338px;
@@ -105,7 +104,7 @@
     right: 47px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   .hero-restaurant {
     max-width: 1440px;
     padding-bottom: 82px;
