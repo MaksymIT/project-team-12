@@ -1,0 +1,61 @@
+ul {
+  list-style: none;
+}
+.container {
+  /* 320px <-- Phone screen <-- Infinity */
+
+  min-width: 320px;
+  max-width: 428px;
+}
+
+/* 768px <-- Tablet screen <-- Infinity */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* 1200px <-- Phone screen <-- Infinity */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media screen and (min-width: 768px;) {
+  .photo-coctel {
+    width: 284px;
+  }
+}
+.restaurant-page-about-a-kitchen {
+  padding: 0 32px;
+  display: flex;
+}
+.Restaurant-page-about-a-kitchen-photo {
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+.Restaurant-page-about-a-kitchen-small-img {
+  display: contents;
+}
+.Restaurant-page-about-a-kitchen-txt-all {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1, 5;
+  display: flex;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  margin: -184px 0 0 543;
+}
+.Restaurant-page-about-a-kitchen-txt-1 {
+  width: 334px;
+}
+.list {
+  margin: 0;
+}
+.Restaurant-page-about-a-kitchen-txt-2 {
+  width: 453px;
+}
