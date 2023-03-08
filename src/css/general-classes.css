@@ -1,0 +1,141 @@
+:root{
+  /* Colors */
+
+  --primary-dark-color: #121212;
+  --primary-light-color: #F6F6F6;
+
+
+  /* Others */
+  --anim-norm: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--primary-dark-color);
+}
+
+.container {
+  /* mobile */
+  min-width: 320px;
+  max-width: 335px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding: 0 32px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1376px;
+  }
+}
+
+.heading-primary {
+  /* mobile */
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1;
+  color: var(--primary-light-color);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .heading-primary {
+    font-size: 150px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .heading-primary {
+    font-size: 180px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  /* mobile */
+  text-decoration: none;
+  display: flex;
+  border-radius: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2857142857;
+  cursor: pointer;
+  padding: 8px 18px;
+  font-family: inherit;
+  transition: background-color var(--anim-norm), color var(--anim-norm), border-color var(--anim-norm);
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .btn {
+    line-height: 1.7142857143;
+    padding: 8px 24px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .btn {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 9px 24px;
+  }
+}
+
+.btn-light{
+  border: 0.8px solid var(--primary-light-color);
+  color: var(--primary-light-color);
+}
+
+.btn-light-hover:hover,
+.btn-light-hover:focus {
+  background-color: var(--primary-dark-color);
+  color: var(--primary-light-color);
+  border-color: var(--primary-dark-color);
+}
+
+.btn-dark{
+  border: 0.8px solid var(--primary-dark-color);
+  color: var(--primary-dark-color);
+}
+
+.btn-dark:hover,
+.btn-dark:focus{
+  background-color: var(--primary-light-color);
+  color: var(--primary-dark-color);
+  border-color: var(--primary-light-color);
+}
