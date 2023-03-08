@@ -113,14 +113,14 @@
     margin-bottom: 42px;
     width: 592px;
   }
-  .room-wrapper {
+  /* .room-wrapper {
     position: relative;
   }
   .room-descr {
     position: absolute;
     bottom: -37%;
     left: 35px;
-  }
+  } */
 }
 
 .img-room {
