@@ -63,7 +63,7 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .welcome-text {
+  .welcome-paragrahp {
     flex-direction: row;
     letter-spacing: 1.3021428571;
   }
@@ -71,7 +71,7 @@
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .welcome-text {
+  .welcome-paragrahp {
     flex-direction: column;
     margin-top: 310px;
     gap: 24px;
