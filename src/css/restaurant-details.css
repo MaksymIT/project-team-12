@@ -29,7 +29,7 @@
   .rest-descr {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 32px;
     margin-bottom: 80px;
   }
@@ -94,9 +94,9 @@
   .restaurant-details .dsk-img-hidden {
     margin-left: 0;
   }
-  .desk-descr {
+  .restaurant-details .desk-descr {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 125px;
   }
