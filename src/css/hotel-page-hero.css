@@ -136,6 +136,7 @@ text-transform: uppercase;
 }
 
 .slider-btn-box {
+    
     display: flex;
     gap: 60px;
     justify-content: flex-end;
@@ -155,7 +156,8 @@ text-transform: uppercase;
 }
 
 .slider-btn {
-    
+     
+    display: none;
     border: none;
 }
 @media screen and (min-width: 768px) {
