@@ -1,4 +1,5 @@
-import './js/modal-table'
-import './js/modal-room'
-import './js/modal-price'
+import './js/modal-table.js';
+import './js/modal-room.js';
+import './js/modal-price.js';
+
 
