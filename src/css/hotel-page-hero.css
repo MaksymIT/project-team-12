@@ -57,6 +57,22 @@
        gap: 320px;
     }
 }
+.tablet-box {
+
+}
+@media screen and (min-width: 768px) {
+    .tablet-box {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .tablet-box {
+        justify-content: flex-end;
+    }
+}
 
 .heading-hotel {
     font-weight: 400;
@@ -101,6 +117,7 @@ text-transform: uppercase;
     .paragraph-ht {
         position: absolute;
         top: 572px;
+        left: 32px;
     }
 }
 
@@ -175,11 +192,14 @@ text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-    .hotel-img-box {}
+    .hotel-img-box {
+        gap: 32px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .hotel-img-box {
+        gap: 32px;
         padding-bottom: 27px;
     }
 }
