@@ -9,9 +9,11 @@
   box-sizing: border-box;
 } */
 
+@import url('./general-classes.css');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero-about.css');
 @import url('./location.css');
 @import url('./general-classes.css');
 
