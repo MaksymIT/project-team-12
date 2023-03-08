@@ -3,10 +3,29 @@
   | include css partials with
   | default @import url()
   |============================ */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
 
+@import url('./general-classes.css');
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero-about.css');
+@import url('./location.css');
+@import url('./general-classes.css');
+
+@import url('./restaurant-hero.css');
+@import url('./restaurant-about-kitchen.css');
+@import url('./mp-hotel-details.css');
+
+@import url('./hotel-page-hero.css');
+@import url('./main-page-welcome.css');
+@import url('./hotel-page-double-luxury-room.css');
+@import url('./restaurant-details.css');
+@import url('./amenities.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +42,5 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+

@@ -1,0 +1,189 @@
+.hotel-details {
+  max-width: 375px;
+  background-color: rgba(18, 18, 18, 1);
+
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.hd-title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.hd-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #f7f7f7;
+}
+.hd-light-text {
+  max-width: 335px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #f7f7f7;
+}
+.hd-arrs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: left;
+  column-gap: 20px;
+
+  margin-bottom: 40px;
+}
+.hd-arr-right {
+  fill: rgba(255, 255, 255, 0.3);
+}
+.hd-arr-left {
+  fill: rgba(246, 246, 246, 1);
+}
+
+.hd-btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 14px;
+
+  margin-bottom: 40px;
+}
+.hd-btn {
+  background-color: rgba(18, 18, 18, 1);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #f7f7f7;
+}
+.dh-two-img-mbl {
+  display: flex;
+  column-gap: 19px;
+}
+.dh-cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 27px;
+  column-gap: 20px;
+
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.dh-card-bed {
+  width: 335px;
+  height: 416px;
+}
+.dh-card-towel {
+  width: 158px;
+  height: 128px;
+}
+.dh-card-bath {
+  width: 158px;
+  height: 128px;
+}
+@media screen and (max-width: 767px) {
+  .dh-imgs-tbl-first-list {
+    display: none;
+  }
+  .dh-imgs-tbl-last-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hotel-details {
+    min-width: 768px;
+  }
+  .hd-title-text {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+  .dh-imgs-mbl {
+    display: none;
+  }
+  .dh-cards {
+    display: flex;
+    gap: 16px;
+  }
+  .dh-two-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  .dh-card-bed {
+    width: 320px;
+    height: 418px;
+  }
+  .dh-card-towel {
+    width: 176px;
+    height: 142px;
+  }
+  .dh-card-bath {
+    width: 176px;
+    height: 258px;
+  }
+  .dh-sink-tab {
+    width: 176px;
+    height: 258px;
+  }
+  .dh-cream-desk {
+    width: 176px;
+    height: 142px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hotel-details {
+    position: relative;
+    min-width: 1440px;
+  }
+  .dh-cards {
+    gap: 32px;
+    justify-content: center;
+    margin-top: 87px;
+  }
+  .dh-two-cards {
+    row-gap: 28px;
+  }
+  .dh-card-bed {
+    width: 420px;
+    height: 548px;
+  }
+  .dh-card-towel {
+    width: 320px;
+    height: 260px;
+  }
+  .dh-card-bath {
+    width: 320px;
+    height: 260px;
+  }
+  .dh-sink-tab {
+    width: 320px;
+    height: 260px;
+  }
+  .dh-cream-desk {
+    width: 320px;
+    height: 260px;
+  }
+  .hd-btns {
+    position: absolute;
+    top: 44px;
+    right: 32px;
+  }
+}
