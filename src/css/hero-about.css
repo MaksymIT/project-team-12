@@ -7,6 +7,21 @@
   /* font-family */
   --font: 'DM Sans';
 }
+
+/* main class */
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    margin-bottom: 100px;
+  }
+}
+
 /**
   |============================
   | hero
