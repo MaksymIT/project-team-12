@@ -1,0 +1,144 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px 32px;
+        justify-content: flex-start;
+        align-items: flex-start
+    }
+}
+
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    justify-content: center;
+
+    background-color: #121212;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 628px;
+    }
+}
+
+
+
+
+.title-of-modal {
+    display: block;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: calc(38/28px);
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+    margin-bottom: 40px;
+}
+
+
+.modal-label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+}
+
+.modal-label {
+    margin-bottom: 32px;
+}
+
+.modal-under-input {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 8px;
+    line-height: calc(12/8);
+    letter-spacing: 0.18em;
+    color: #D8D7D7;
+}
+
+.modal-input {
+    width: 287px;
+    height: 36px;
+    background-color: #121212;
+    border: none;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+    margin-bottom: 8px;
+
+    color: #F7F7F7;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(18/14);
+
+}
+
+.modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 48px;
+    gap: 10px;
+    background-color: #121212;
+    width: 235px;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-button {
+        padding: 14px 130px;
+        width: 399px;
+
+    }
+}
+
+
+
+.modal-label-select {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+    color: #F7F7F7;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+}
