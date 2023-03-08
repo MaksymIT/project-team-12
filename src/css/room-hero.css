@@ -1,0 +1,128 @@
+.room-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.hero-room {
+  background: #f6f6f6;
+  width: 100%;
+
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.btns-room-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 12px;
+
+  margin-bottom: 40px;
+}
+.room-descr {
+  display: inline-block;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #121212;
+
+  max-width: 338px;
+  margin-bottom: 40px;
+}
+.room-main .room-btn {
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.room-img-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 24px;
+}
+.mb-img-hidden {
+  margin-bottom: 70px;
+}
+
+.tbl-img-hidden {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-room {
+    padding-bottom: 120px;
+  }
+  .room-title {
+    margin-bottom: 32px;
+  }
+  .room-descr {
+    margin-top: 0;
+  }
+}
+
+.img-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (min-width: 1440px) {
+  .img-list {
+    gap: 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mb-img-hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px), (min-width: 1440px) {
+  .tbl-img-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .dsk-img-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .room-wrapper {
+    display: flex;
+  }
+  .dsk-img-hidden {
+    margin-left: 90px;
+  }
+  .room-title {
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-bottom: 42px;
+    width: 592px;
+  }
+  .room-wrapper {
+    position: relative;
+  }
+  .room-descr {
+    position: absolute;
+    bottom: -37%;
+    left: 35px;
+  }
+}
+
+.img-room {
+  width: 436px;
+}
