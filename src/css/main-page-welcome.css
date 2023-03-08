@@ -1,0 +1,139 @@
+.welcome {
+  /* mobile */
+  padding: 64px 0 80px 0;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .welcome {
+    padding: 80px 0 80px 0;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome {
+    position: relative;
+    padding: 126px 0 100px 0;
+  }
+}
+
+
+.heading-welcome {
+  font-family: 'DM Sans';
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .heading-welcome {
+    font-size: 36px;
+    line-height: 1.111111;
+    width: 434px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .heading-welcome {}
+}
+
+.heading-welcome-italic {
+  font-style: italic;
+}
+
+.welcome-paragrahp {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-family: 'DM Sans';
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2857142857;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .welcome-paragrahp {
+    flex-direction: row;
+    letter-spacing: 1.3021428571;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome-paragrahp {
+    flex-direction: column;
+    margin-top: 310px;
+    gap: 24px;
+  }
+}
+
+.paragraph-welcome-1 {
+  width: 306px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .paragraph-welcome-1 {}
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .paragraph-welcome-1 {
+    width: 437px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .paragraph-welcome-2 {
+    width: 366px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .paragraph-welcome-2 {
+    width: 437px;
+  }
+}
+
+.welcome-img {
+  margin-top: 32px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .welcome-img {
+    margin-top: 29px;
+    width: 704px;
+    height: 599px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome-img {
+    margin-top: 0;
+    width: 672px;
+    height: 599px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .welcome-text {
+    position: absolute;
+    left: 736px;
+  }
+}
