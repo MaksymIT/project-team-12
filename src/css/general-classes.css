@@ -88,11 +88,14 @@ body {
 .btn {
   /* mobile */
   text-decoration: none;
+  background-color: transparent;
+  text-transform: uppercase;
   display: flex;
   border-radius: 32px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2857142857;
+  letter-spacing: -0.02em;
   cursor: pointer;
   padding: 8px 18px;
   font-family: inherit;
@@ -116,25 +119,25 @@ body {
   }
 }
 
-.btn-light{
+.btn-light {
   border: 0.8px solid var(--primary-light-color);
   color: var(--primary-light-color);
 }
 
-.btn-light-hover:hover,
-.btn-light-hover:focus {
+.btn-dark:hover,
+.btn-dark:focus {
   background-color: var(--primary-dark-color);
   color: var(--primary-light-color);
   border-color: var(--primary-dark-color);
 }
 
-.btn-dark{
+.btn-dark {
   border: 0.8px solid var(--primary-dark-color);
   color: var(--primary-dark-color);
 }
 
-.btn-dark:hover,
-.btn-dark:focus{
+.btn-light:hover,
+.btn-light:focus {
   background-color: var(--primary-light-color);
   color: var(--primary-dark-color);
   border-color: var(--primary-light-color);

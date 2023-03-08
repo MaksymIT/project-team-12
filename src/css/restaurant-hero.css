@@ -1,0 +1,132 @@
+.restaurant-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  margin-bottom: 24px;
+}
+
+.hero-restaurant {
+  background: #f6f6f6;
+  max-width: 375px;
+
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.btns-rest-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 12px;
+
+  margin-bottom: 40px;
+}
+.rest-simple-text {
+  display: inline-block;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #121212;
+
+  max-width: 338px;
+  margin-top: 40px;
+}
+
+.rest-img-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 24px;
+
+  margin-bottom: 36px;
+}
+.rest-table-slider {
+  max-width: 250px;
+  max-height: 429px;
+}
+
+.rest-food-slider {
+  max-width: 250px;
+  max-height: 429px;
+}
+.rest-arrs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: right;
+  column-gap: 32px;
+}
+.rest-arr-left {
+  fill: rgba(18, 18, 18, 1);
+}
+
+.rest-arr-right {
+  fill: rgba(18, 18, 18, 0.3);
+}
+@media screen and (min-width: 768px) {
+  .hero-restaurant {
+    max-width: 768px;
+
+    padding-bottom: 120px;
+  }
+  .restaurant-title {
+    margin-bottom: 32px;
+  }
+  .rest-simple-text {
+    margin-top: 0;
+  }
+  .rest-table-slider {
+    max-width: 436px;
+    max-height: 548px;
+  }
+  
+  .rest-food-slider {
+    max-width: 436px;
+    max-height: 548px;
+  }
+  .rest-arrs-text {
+    position: absolute;
+    width: 768px;
+  }
+  .rest-arrs {
+    position: absolute;
+    top: 0;
+    right: 47px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-restaurant {
+    max-width: 1440px;
+    padding-bottom: 82px;
+  }
+  .rest-wrapper-lpt {
+    display: flex;
+  }
+  .rest-wrapper-lpt-name {
+    justify-content: center;
+    margin-right: 180px;
+  }
+  .restaurant-title {
+    display: flex;
+    font-size: 90px;
+    margin-bottom: 32px;
+  }
+  .rest-arrs-text {
+   width: 855px;
+  }
+  .rest-simple-text{
+    margin-top:-36px;
+
+  }
+}
