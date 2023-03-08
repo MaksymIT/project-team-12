@@ -134,7 +134,7 @@
     }
 }
 
-.btn {
+.btn-absolute {
     background-color: transparent;
     min-width: 175px;
     min-height: 34px;
@@ -144,14 +144,14 @@
     margin-right: auto;
 }
 @media screen and (min-width: 768px) {
-    .btn {
+    .btn-absolute {
         position: absolute;
         top: 371px;
         right: 529px;
     }
 }
 @media screen and (min-width: 1440px) {
-    .btn {
+    .btn-absolute {
         top: 459px;
         right: 678px;
     }
