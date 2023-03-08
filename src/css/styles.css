@@ -27,8 +27,10 @@
 @import url('./restaurant-details.css');
 @import url('./amenities.css');
 @import url('./restaurant-menu.css');
-@import url('./room-hero.css');
 @import url('./hp-triple-room.css');
+@import url('./room-hero.css');
+@import url('./four-seater.css');
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

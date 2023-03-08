@@ -22,7 +22,7 @@
   justify-content: center;
   gap: 20px;
 }
-.mb-img-hidden {
+.mb-img-hidden-triple {
   margin-bottom: 32px;
 }
 .dp-one {
@@ -58,18 +58,14 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .mb-img-hidden {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px), (min-width: 1440px) {
-  .tbl-img-hidden {
+  .mb-img-hidden-triple {
     display: none;
   }
 }
 
+
 @media screen and (max-width: 1439px) {
-  .dsk-img-hidden {
+  .dsk-img-hidden-triple {
     display: none;
   }
 }
@@ -109,12 +105,12 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .mb-hidden {
+  .mb-hidden-triple-room {
     display: none;
   }
 }
 @media screen and (min-width: 1440px) {
-  .dsk-hidden {
+  .dsk-hidden-triple-room {
     display: none;
   }
   .triple-desk-img-list {
@@ -132,7 +128,7 @@
   }
   .triple-room-btn {
     margin-top: 0;
-    margin-right: 370px;
+    margin-right: 340px;
   }
 
   .triple-room-descr {
@@ -145,5 +141,11 @@
   }
   .triple-room-descr .title-triple-room {
     margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px), (min-width: 1440px) {
+  .tbl-img-hidden-triple {
+    display: none;
   }
 }

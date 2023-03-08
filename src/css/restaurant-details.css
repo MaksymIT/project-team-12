@@ -1,4 +1,4 @@
-restaurant details
+/* restaurant details section */
 .title-restaurant {
   font-weight: 500;
   font-size: 40px;
@@ -91,6 +91,9 @@ restaurant details
   .dsk-hidden {
     display: none;
   }
+  .restaurant-details .dsk-img-hidden {
+    margin-left: 0;
+  }
   .desk-descr {
     display: flex;
     justify-content: center;
@@ -109,68 +112,3 @@ restaurant details
   }
 }
 
-/* restaurant details
-.title-restaurant {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1;
-    letter-spacing: 0.02em;
-  
-    margin-bottom: 24px;
-  
-  }
-  .rest-description {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: 0.02em;
-  
-    margin-bottom: 32px;
-  }
-  @media screen and (min-width: 768px) {
-      .title-restaurant {
-          font-weight: 500;
-          font-size: 58px;
-          line-height: 1;
-          letter-spacing: 0.02em;
-        }
-      .rest-description {
-          margin-bottom: 0;
-        }
-        .rest-descr{
-          display: flex;
-          gap: 32px;
-          margin-bottom: 80px;
-        }
-    }
-  .rest-mb-img {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  .container.restaurant-details {
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 60px;
-    padding-bottom: 110px;
-  }
-  .restaurant-btn {
-    display: flex;
-    gap: 15px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transform: translate(14%);
-  }
-  
-  @media screen and (min-width: 768px) {
-      .restaurant-btn {
-          
-          left: 0;
-          bottom: 0;
-          transform: translate(72%);
-        }
-    }
-    @media screen and (min-width: 1440px) {
-      
-    } */
