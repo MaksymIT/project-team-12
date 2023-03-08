@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     
-  <link rel="stylesheet" href="/project-team-12/assets/styles-d3a6ece4.css">
+  <link rel="stylesheet" href="/project-team-12/assets/styles-390b5a64.css">
 </head>
 <body>
 
@@ -296,7 +296,93 @@
         </div>
   </section>
 
-            ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/partials/modals.html'
+            <!--Modal BOOK A TABLE-->
+<div data-modal-table>
+  <div>
+    <button type="button" data-modal-table-close>CLOSE</button>
+    <strong>BOOK A TABLE</strong>
+    <form action="">
+      <label>
+        <span>YOUR NAME</span>
+        <input type="text" />
+        <span>WHO SHOULD BOOK A TABLE FOR?</span>
+      </label>
+      <label>
+        <span>NUMBER OF PEOPLE</span>
+        <input type="number" name="number_of_people" min="1" max="12" />
+      </label>
+      <label>
+        <span>TODAY</span>
+        <input type="date" />
+        <span>WHAT DATE TO BOOK?</span>
+      </label>
+      <label>
+        <span>+38()</span>
+        <input type="tel" />
+        <span>PHONE NUMBER</span>
+      </label>
+      <button type="submit">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>
+
+<!--Modal BOOK A ROOM-->
+<div data-modal-room>
+  <div>
+    <button type="button" data-modal-room-close>CLOSE</button>
+    <strong>BOOK A ROOM</strong>
+    <form action="">
+      <label>
+        <span>YOUR NAME</span>
+        <input type="text" />
+        <span>WHO SHOULD BOOK A TABLE FOR?</span>
+      </label>
+      <label>
+        <span>+38()</span>
+        <input type="tel" />
+        <span>PHONE NUMBER</span>
+      </label>
+      <label>
+        <span>TODAY</span>
+        <input type="date" />
+        <span>Check-in date</span>
+      </label>
+      <label>
+        <span>25/04/2023</span>
+        <input type="date" />
+        <span>Check-out date</span>
+      </label>
+      <label>
+        <select name="">
+          <option value="">Double suite</option>
+        </select>
+      </label>
+      <button type="submit">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>
+
+<!--Modal PRICES PER ROOM-->
+<div data-modal-price>
+  <div>
+    <button type="button" data-modal-price-close>CLOSE</button>
+    <strong>PRICES PER ROOM</strong>
+    <label>
+      <span>DOUBLE SUITE</span>
+      <input type="number" />
+      <span>NUMBER OF NIGHTS</span>
+    </label>
+    <label>
+      <span>25/04/2023</span>
+      <input type="date" />
+      <span>Check-in date</span>
+    </label>
+    <button type="submit">MAKE A RESERVATION</button>
+
+    <form action=""></form>
+  </div>
+</div>
+
         </section>
     </main>
 
