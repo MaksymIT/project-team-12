@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .hotel-hero {
         padding-bottom: 30px;
         margin-bottom: 100px;
@@ -42,7 +42,7 @@
     .hotel-hero-box1 {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .hotel-hero-box1 {
         min-width: 361px;
     }
@@ -54,7 +54,7 @@
     .hotel-hero-box2 {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .hotel-hero-box2 {
        display: flex;
        gap: 320px;
@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .tablet-box {
         justify-content: flex-end;
     }
@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .heading-hotel {
         font-size: 90px;
     }
@@ -116,7 +116,7 @@ text-transform: uppercase;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .paragraph-ht {
         position: absolute;
         top: 572px;
@@ -134,7 +134,7 @@ text-transform: uppercase;
     .btn-hotel-div {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .btn-hotel-div {}
 }
 
@@ -150,7 +150,7 @@ text-transform: uppercase;
     .slider-btn-box {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .slider-btn-box {
         justify-content: start;
         margin-left: 705px;
@@ -167,7 +167,7 @@ text-transform: uppercase;
     .slider-btn {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .slider-btn {}
 }
 
@@ -179,7 +179,7 @@ text-transform: uppercase;
     .slider-btn-svg {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .slider-btn-svg {
         
     }
@@ -207,7 +207,7 @@ text-transform: uppercase;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .hotel-img-box {
         gap: 32px;
         padding-bottom: 52px;
@@ -222,6 +222,6 @@ text-transform: uppercase;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .img-hh {}
 }
