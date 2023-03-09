@@ -115,25 +115,6 @@
     }
 }
 
-.four-seater-link {
-    background-color: transparent;
-        min-width: 117px;
-        min-height: 34px;
-        border: 0.8px solid var(--primary-dark-color);
-        color: var(--primary-dark-color);
-        border-radius: 32px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2857142857;
-        letter-spacing: -0.02em;
-        cursor: pointer;
-        padding: 8px 18px;
-        font-family: inherit;
-        transition: background-color var(--anim-norm), color var(--anim-norm), border-color var(--anim-norm);
-        text-transform: uppercase; 
-        padding: 8px 24px; 
-}
-
 
 
 
