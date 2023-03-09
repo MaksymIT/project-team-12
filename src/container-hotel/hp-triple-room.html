@@ -26,8 +26,8 @@
       <div>
         <img
           srcset="
-          ./img/triple-room/triple-room-mb3-1x.jpg  1x,
-            ./img/triple-room/triple-room-mb3-2.jpg 2x
+            ./img/triple-room/triple-room-mb3-1x.jpg 1x,
+            ./img/triple-room/triple-room-mb3-2.jpg  2x
           "
           src="./img/triple-room/triple-room-mb3-1x.jpg"
           alt="Sink"
@@ -63,7 +63,7 @@
       <div>
         <img
           srcset="
-            ./img/triple-room/triple-room-tbl3-1x.jpg  1x,
+            ./img/triple-room/triple-room-tbl3-1x.jpg 1x,
             ./img/triple-room/triple-room-tbl3-2x.jpg 2x
           "
           src="./img/triple-room/triple-room-tbl3-1x.jpg"
@@ -99,7 +99,7 @@
     <div>
       <img
         srcset="
-          ./img/triple-room/triple-room-desk3-1x.jpg  1x,
+          ./img/triple-room/triple-room-desk3-1x.jpg 1x,
           ./img/triple-room/triple-room-desk3-2x.jpg 2x
         "
         src="./img/triple-room/triple-room-desk3-1x.jpg"
@@ -132,8 +132,16 @@
     </div>
   </div>
 
-  <div class="triple-room-btn dsk-hidden-triple-room">
-    <button class="btn btn-dark tr-room-btn" type="button">MORE DETAILS</button>
-    <button class="btn btn-dark tr-room-btn" type="button">VIEW PRICES</button>
-  </div>
+  <ul class="list triple-room-btn dsk-hidden-triple-room">
+    <li>
+      <button class="btn btn-dark tr-room-btn" type="button">
+        MORE DETAILS
+      </button>
+    </li>
+    <li>
+      <button class="btn btn-dark tr-room-btn" type="button" data-modal-price-open>
+        VIEW PRICES
+      </button>
+    </li>
+  </ul>
 </section>
