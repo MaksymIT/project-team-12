@@ -13,8 +13,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/project-team-12/assets/mobile-menu-1c8502b0.js"></script>
-    <link rel="stylesheet" href="/project-team-12/assets/styles-d94dd6dd.css">
+    <script type="module" crossorigin src="/project-team-12/assets/mobile-menu-8f867fd3.js"></script>
+    <link rel="stylesheet" href="/project-team-12/assets/styles-0ca36f25.css">
   </head>
   <body>
     <!-- header -->
@@ -144,7 +144,9 @@
       <div class="hotel-hero-box1">
         <h1 class="heading-hotel">Hotel</h1>
         <div class="btn-hotel-div">
-          <button type="button" class="btn btn-dark">book a room</button>
+          <button type="button" class="btn btn-dark" data-modal-room-open>
+            book a room
+          </button>
           <button type="button" class="btn btn-dark" data-modal-price-open>
             View prices
           </button>
@@ -300,26 +302,13 @@
 ></script>
 <script src="./js/modal.js"></script>
 
-        <!--Modal PRICES PER ROOM-->
-<div class="backdrop is-hidden" data-modal-price>
-  <div class="modal">
-    <strong class="title-of-modal">PRICES PER ROOM</strong>
-    <form action="" class="form">
-      <label class="modal-label">
-        <span>DOUBLE SUITE</span>
-        <input type="number" class="modal-input" />
-        <span class="modal-under-input">NUMBER OF NIGHTS</span>
-      </label>
-      <label class="modal-label">
-        <span>25/04/2023</span>
-        <input type="date" class="modal-input" />
-        <span class="modal-under-input">Check-in date</span>
-      </label>
-    </form>
-    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
-  </div>
-</div>
+<script src="./js/modal-room.js"></script>
 
+
+        ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/container-hotel/hp-double-room.html'
+        ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/container-hotel/hp-double-room.html'
+
+        ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/container-hotel/hp-double-room.html'
 
         ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/container-hotel/hp-double-room.html'
 
@@ -547,6 +536,79 @@
 </div>
 
     </footer>
+    <!--Modal PRICES PER ROOM-->
+<div class="backdrop is-hidden" data-modal-price>
+  <div class="modal">
+    <button class="modal-btn" type="button" data-modal-price-close>
+      <svg class="customers-icon" width="24" height="24">
+        <use href="/project-team-12/assets/icons-cfd7fa20.svg#icon-header-menu-close"></use>
+      </svg>
+    </button>
+    <strong class="title-of-modal">PRICES PER ROOM</strong>
+    <form action="" class="form">
+      <label class="modal-label">
+        <span>DOUBLE SUITE</span>
+        <input
+          type="number"
+          class="modal-input"
+          name="weight"
+          min="1"
+          max="150"
+          step="1"
+          required
+        />
+        <span class="modal-under-input">NUMBER OF NIGHTS</span>
+      </label>
+      <label class="modal-label">
+        <span class="span-hidden">fd</span>
+        <input type="date" class="modal-input" required />
+        <span class="modal-under-input">UAH</span>
+      </label>
+    </form>
+    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+  </div>
+</div>
+
+    <!--Modal BOOK A ROOM-->
+<div class="backdrop is-hidden" data-modal-room>
+  <div class="modal modal-room">
+    <button class="modal-btn" type="button" data-modal-room-close>
+      <svg class="customers-icon" width="24" height="24">
+        <use href="/project-team-12/assets/icons-cfd7fa20.svg#icon-header-menu-close"></use>
+      </svg>
+    </button>
+    <strong class="title-of-modal">BOOK A ROOM</strong>
+    <form action="" class="form-room">
+      <div class="label1">
+        <label class="modal-label modal-label-room">
+          YOUR NAME
+          <input type="text" class="modal-input" />
+          <span class="modal-under-input">WHO SHOULD BOOK A TABLE FOR?</span>
+        </label>
+        <label class="modal-label">
+          <span></span>
+          <input type="tel" class="modal-input" />
+          <span class="modal-under-input">PHONE NUMBER</span>
+        </label>
+      </div>
+      <div class="label2">
+        <label class="modal-label modal-label-room">
+          <span>NUMBER OF PEOPLE</span>
+          <input type="" class="modal-input" />
+          <span class="modal-under-input">fROM "1" TO "10"</span>
+        </label>
+        <label class="modal-label modal-label-room">
+          <span></span>
+          <input type="" class="modal-input" />
+          <span class="modal-under-input">WHAT DATE TO BOOK?</span>
+        </label>
+      </div>
+    </form>
+    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+  </div>
+</div>
+
+
     
   </body>
 </html>
