@@ -75,8 +75,8 @@
   height: 309px;
 }
 .container.triple-room-details {
-  margin-bottom: 50px;
-  margin-top: 60px;
+  padding-bottom: 50px;
+  padding-top: 60px;
 }
 .tr-room-btn.btn {
   min-width: 0;
