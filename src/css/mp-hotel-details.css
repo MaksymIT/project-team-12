@@ -115,6 +115,8 @@
     flex-direction: row;
     column-gap: 32px;
   }
+  .hd-light-text {
+  margin-bottom: 0;}
   .dh-imgs-mbl {
     display: none;
   }
