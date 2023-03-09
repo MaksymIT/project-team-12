@@ -1,32 +1,68 @@
 <!-- Main Page Location and Contacts HTML -->
-<section class="location-section">
 
-    <h2 class="location-header">LOCATION</h2>
-    
-    <p class="hotel-adress">Ukraine, Poltava, St. Marshal Biryuzov, 15</p>
+<section class="location">    
+   
+<div class="location-block container">
 
+    <h2 class="location-title">LOCATION</h2>
+
+    <div class="map-images">
+        
     <picture>
-        <source srcset=
-        "../img/images-location/map-desktop@1x.jpg 1x, 
-         ../img/images-location/map-desktop@2x.jpg 2x"  media="(min-width: 1200px)" >
+        <source 
+        media="(min-width: 1440px)" 
+        srcset=
+        "./img/images-location/map-desktop@1x.jpg 1x, 
+        ./img/images-location/map-desktop@2x.jpg 2x"
+        type="image/jpg"
+        >
 
-        <source srcset=
-        "../img/images-location/map-tablet@1x.jpg 1x, 
-        ../img/images-location/map-tablet@2x.jpg 2x" media="(min-width: 768px)" >
+        <source 
+        media="(min-width: 768px)" 
+        srcset=
+        "./img/images-location/map-tablet-1@1x.jpg 1x, 
+        ./img/images-location/map-tablet-2@2x.jpg 2x" 
+        type="image/jpg"
+        >
 
-        <source srcset= 
-        "../img/images-location/map-mobile@1x.jpg 1x, 
-        ../img/images-location/map-mobile@2x.jpg 2x" media="(max-width: 767px)" >
+        <source 
+        media="(max-width: 767px)"
+        srcset= 
+        "./img/images-location/map-mobile@1x.jpg 1x, 
+        ./img/images-location/map-mobile@2x.jpg 2x"
+        type="image/jpg"
+        >
 
-        <img class="map-photo"  src="../img/images-location/map-mobile@1x.jpg" alt="map" width="">
+        <img class="map-photo" src="./img/images-location/map-mobile@1x.jpg" alt="map"
+        width="335px">
        </picture>
+    </div>
+    
 
+<div class="location-description">
+    
+    
+    <div class="contacts-list">
+    <a><h3 class="item-adress">Ukraine, Poltava,<br>
+     St. Marshal Biryuzov, 15</h3></a>
 
-    <p class="hotel-contacts-text">call us:</p>
-    <ul class="hotel-phone">
-        <li>(095) 555 95 33</li>
-        <li>(066) 849 10 89</li>
+    <div class="contacts-block">
+    <p class="contacts-subtitle">call us:</p>
+    <ul class="item-phone">
+       <li>
+        <a href="tel: +38(095) 555 95 33">(095) 555 95 33</a>
+    </li>
+    <li>
+        <a href="tel: +38(066) 849 10 89">(066) 849 10 89</a>
+    </li>
+
     </ul>
+    </div>
+   </div>
+
+</div>
+
+</div>
 
 </section>
 <!-- end section -->

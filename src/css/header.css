@@ -1,1 +1,259 @@
 
+.header {
+  background-color: transparent;
+  /* position: absolute; */
+  z-index: 9999999;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  height: 78px;
+  border-bottom: 0.5px solid rgba(189, 195, 199, 0.5);
+}
+
+.header-wrapper-home {
+  background-color: var(--primary-dark-color);
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    justify-content: space-between;
+  }
+}
+
+
+
+.header-list {
+  display: none;
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .header-list {
+    display: flex;
+    gap: 32px;
+
+  }
+}
+
+.header-list-light {
+  color: var(--primary-light-color);
+}
+
+.header-list-item {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header-list-link.current::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: var(--primary-dark-color);
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.header-list-link-light.current::after {
+  background-color: var(--primary-light-color);
+}
+
+.menu-toggle {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  padding: 28px 0 28px 0;
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.header-menu-open-icon {
+  stroke: var(--primary-dark-color);
+}
+
+.header-social-list {
+  display: none;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .header-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 18px 0 18px 0;
+}
+
+.header-logo-light {
+  color: var(--primary-light-color);
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .header-logo {
+    margin-left: 250px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .header-logo {
+    margin: 0;
+  }
+}
+
+.logo-big {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .logo-big {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.logo-small {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .logo-small {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-dark-color);
+  z-index: 999;
+  overflow: auto;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+/* desktop */
+@media screen and (min-width: 1440px) {
+  .menu-container {
+    display: none;
+  }
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.btn-close {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 25px;
+  left: 27px;
+}
+
+.close-icon {
+  stroke: var(--primary-light-color);
+}
+
+.menu-logo {
+  color: var(--primary-light-color);
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .menu-logo {
+    margin: auto;
+  }
+}
+
+.menu-header {
+  border-bottom: 0.5px solid rgba(189, 195, 199, 0.5);
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  color: var(--primary-light-color);
+  margin-top: 128px;
+  text-transform: uppercase;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .menu-list {
+    margin-top: 240px;
+  }
+}
+
+.menu-social-list {
+  display: flex;
+  gap: 21px;
+  position: absolute;
+  bottom: 26px;
+  left: 22px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .menu-social-list {
+    bottom: auto;
+    left: auto;
+    top: 25px;
+    right: 27px;
+  }
+}
