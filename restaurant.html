@@ -16,7 +16,120 @@
 
   <!-- Header -->
   <header>
-    ENOENT: no such file or directory, open '/home/runner/work/project-team-12/project-team-12/src/header.html'
+    <header class="header">
+  <div class="header-wrapper container">
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="header-menu-open-icon" width="28" height="28">
+        <use href="../img/svg-images/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <nav class="navigation">
+      <ul class="header-list list">
+        <li class="header-list-item">
+          <a href="./index.html" class="header-list-link link">Home</a>
+        </li>
+        <li class="header-list-item">
+          <a href="./hotel.html" class="header-list-link link">Hotel</a>
+        </li>
+        <li class="header-list-item">
+          <a href="./restaurant.html" class="header-list-link link current"
+            >Restaurant</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header-logo">
+      <a href="" class="logo-big link">Mimino</a>
+      <a href="" class="logo-small link">restaurant-hotel complex</a>
+    </div>
+
+    <ul class="header-social-list">
+      <li class="header-social-item">
+        <a href="https://www.instagram.com/" class="header-social-list-link">
+          <svg class="header-social-icon" width="20" height="20">
+            <use href="../img/svg-images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a href="https://www.facebook.com/" class="header-social-list-link">
+          <svg class="header-social-icon" width="20" height="20">
+            <use href="../img/svg-images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a href="https://twitter.com/" class="header-social-list-link">
+          <svg class="header-social-icon" width="20" height="20">
+            <use href="../img/svg-images/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="menu-header">
+    <button class="js-close-menu btn-close">
+      <svg class="close-icon" width="14" height="14">
+        <use href="../img/svg-images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="header-logo menu-logo">
+      <a href="" class="logo-big link">Mimino</a>
+      <a href="" class="logo-small link">restaurant-hotel complex</a>
+    </div>
+  </div>
+  <ul class="menu-list list">
+    <li class="menu-list-item">
+      <a href="./index.html" class="header-list-link link">Home</a>
+    </li>
+    <li class="menu-list-item">
+      <a href="./hotel.html" class="header-list-link link">Hotel</a>
+    </li>
+    <li class="menu-list-item">
+      <a href="./restaurant.html" class="header-list-link link">Restaurant</a>
+    </li>
+  </ul>
+
+  <ul class="menu-social-list">
+    <li class="menu-social-item">
+      <a href="https://www.instagram.com/" class="header-social-list-link">
+        <svg class="header-social-icon" width="20" height="20">
+          <use href="../img/svg-images/icons.svg#icon-instagram-menu"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="header-social-item">
+      <a href="https://www.facebook.com/" class="header-social-list-link">
+        <svg class="header-social-icon" width="20" height="20">
+          <use href="../img/svg-images/icons.svg#icon-facebook-menu"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="header-social-item">
+      <a href="https://twitter.com/" class="header-social-list-link">
+        <svg class="header-social-icon" width="20" height="20">
+          <use href="../img/svg-images/icons.svg#icon-twitter-menu"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script defer src="../js/mobile-menu.js"></script>
+
   </header>
   
   <!-- main -->
