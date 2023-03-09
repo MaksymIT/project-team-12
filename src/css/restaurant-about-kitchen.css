@@ -23,15 +23,21 @@
 
   margin-bottom: 8px;
 }
-.rest-ab-cook {
+.rest-two-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rest-ak-cook {
   width: 335px;
   height: 443px;
 }
-.rest-ab-meat {
+.rest-ak-meat {
   width: 158px;
   height: 149px;
 }
-.rest-ab-drink {
+.rest-ak-drink {
   width: 157px;
   height: 149px;
 }
@@ -51,20 +57,36 @@
   max-width: 335px;
   margin-top: 24px;
 }
+@media screen and (max-width: 767px) {
+}
+
 @media screen and (min-width: 768px) {
+  .rest-ak-cards {
+    column-gap: 32px;
+  }
+
   .rest-about-kitchen {
     max-width: 768px;
     padding-bottom: 80px;
   }
-  .rest-ab-cook {
+  .rest-two-card {
+    row-gap: 16px;
+  }
+  .rest-two-cards {
+    order: 1;
+  }
+  .rest-cook-one-card {
+    order: 2;
+  }
+  .rest-ak-cook {
     width: 388px;
     height: 515px;
   }
-  .rest-ab-meat {
+  .rest-ak-meat {
     width: 284px;
     height: 296px;
   }
-  .rest-ab-drink {
+  .rest-ak-drink {
     width: 284px;
     height: 203px;
   }
@@ -90,15 +112,15 @@
     max-width: 1440px;
     padding-bottom: 100px;
   }
-  .rest-ab-cook {
+  .rest-ak-cook {
     width: 511px;
     height: 598px;
   }
-  .rest-ab-meat {
+  .rest-ak-meat {
     width: 334px;
     height: 389px;
   }
-  .rest-ab-drink {
+  .rest-ak-drink {
     width: 467px;
     height: 389px;
   }
