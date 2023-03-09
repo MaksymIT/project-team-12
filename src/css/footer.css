@@ -1,0 +1,138 @@
+.page-footer {
+    padding-top: 24px;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+.footer-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+    border-radius: 68px;
+    left: 0;
+    bottom: 32px;
+}
+
+.footer-wrapper {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-desk-list {
+    display: none;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-desk-social-list {
+    display: flex;
+
+}
+
+.footer-desk-social-list-item:not(:last-child) {
+    margin-right: 14px;
+}
+
+.footer-social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+
+    transition-property: opacity, border, border-radius;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+
+    border: 1px solid #121212;
+    border-radius: 8px;
+
+
+}
+
+.footer-social-icon {
+    stroke: #121212;
+    fill: #F7F7F7;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+    stroke: #121212;
+    fill: #F7F7F7;
+}
+
+@media screen and (min-width:768px) {
+    .page-footer {
+        padding-top: 32px;
+        padding-bottom: 80px;
+    }
+
+    .footer-wrapper {
+        padding: 0 32px;
+    }
+
+    .footer-wrapper::after {
+        bottom: 48px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .footer-desk-list {
+        display: flex;
+        position: absolute;
+    }
+
+    .footer-desk-list-item:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    .footer-desk-list-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #121212;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .page-footer {
+        padding-top: 44px;
+        padding-bottom: 160px;
+    }
+
+    .footer-wrapper::after {
+        bottom: 80px;
+    }
+
+    .footer-logo {
+
+        align-items: center;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer-desk-social-list {
+        display: flex;
+        position: absolute;
+        right: 32px;
+    }
+}

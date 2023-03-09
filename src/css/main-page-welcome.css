@@ -1,12 +1,15 @@
 .welcome {
   /* mobile */
-  padding: 64px 0 80px 0;
+  padding-top: 64px;
+  padding-bottom: 80px;
+
 }
 
 /* tablet */
 @media screen and (min-width: 768px) {
   .welcome {
-    padding: 80px 0 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -14,7 +17,8 @@
 @media screen and (min-width: 1440px) {
   .welcome {
     position: relative;
-    padding: 126px 0 100px 0;
+    padding-top: 126px;
+    padding-bottom: 100px;
   }
 }
 
@@ -63,7 +67,7 @@
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .welcome-text {
+  .welcome-paragrahp {
     flex-direction: row;
     letter-spacing: 1.3021428571;
   }
@@ -71,7 +75,7 @@
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .welcome-text {
+  .welcome-paragrahp {
     flex-direction: column;
     margin-top: 310px;
     gap: 24px;

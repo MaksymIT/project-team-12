@@ -1,0 +1,32 @@
+<!--Modal PRICES PER ROOM-->
+<div class="backdrop is-hidden" data-modal-price>
+  <div class="modal">
+    <button class="modal-btn" type="button" data-modal-price-close>
+      <svg class="customers-icon" width="24" height="24">
+        <use href="./img/icons.svg#icon-header-menu-close"></use>
+      </svg>
+    </button>
+    <strong class="title-of-modal">PRICES PER ROOM</strong>
+    <form action="" class="form">
+      <label class="modal-label">
+        <span>DOUBLE SUITE</span>
+        <input
+          type="number"
+          class="modal-input"
+          name="weight"
+          min="1"
+          max="150"
+          step="1"
+          required
+        />
+        <span class="modal-under-input">NUMBER OF NIGHTS</span>
+      </label>
+      <label class="modal-label">
+        <span class="span-hidden">fd</span>
+        <input type="date" class="modal-input" required />
+        <span class="modal-under-input">UAH</span>
+      </label>
+    </form>
+    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+  </div>
+</div>

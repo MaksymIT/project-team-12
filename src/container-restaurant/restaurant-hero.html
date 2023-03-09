@@ -1,113 +1,249 @@
+<!--===================== RESTAURANT =====================-->
+<section class="container hero-restaurant">
+  <div class="">
+    <div class="rest-wrapper-lpt">
+      <div class="rest-wrapper-lpt-name">
+        <h1 class="restaurant-title">Restaurant</h1>
+        <ul class="btns-rest-hero list">
+          <li>
+            <button class="btn btn-dark" type="button">BOOK A TABLE</button>
+          </li>
+          <li>
+            <button class="btn btn-dark" type="button">VIEW A MENU</button>
+          </li>
+        </ul>
+      </div>
 
-      <!--===================== RESTAURANT =====================-->
-      <section class="hero-restaurant">
-        <div class="container">
-          <div class="rest-wrapper-lpt">
-            <div class="rest-wrapper-lpt-name">
-              <h1 class="restaurant-title">Restaurant</h1>
-              <ul class="btns-rest-hero list">
-                <li>
-                  <button class="btn btn-dark" type="button">
-                    BOOK A TABLE
-                  </button>
-                </li>
-                <li>
-                  <button class="btn btn-dark" type="button">
-                    VIEW A MENU
-                  </button>
-                </li>
-              </ul>
-            </div>
+      <ul class="rest-img-list list">
+        <li>
+          <picture class="rest-table-slider">
+            <source
+              srcset="
+                ./img/restaurant/rest-table-lpt.jpg    1x,
+                ./img/restaurant/rest-table-lpt@2x.jpg 2x
+              "
+              media="(min-width:1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="
+                ./img/restaurant/rest-table-tbl.jpg    1x,
+                ./img/restaurant/rest-table-tbl@2x.jpg 2x
+              "
+              media="(min-width:768px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="
+                ./img/restaurant/rest-table-mbl.jpg    1x,
+                ./img/restaurant/rest-table-mbl@2x.jpg 2x
+              "
+              media="(max-width:767px)"
+              type="image/jpg"
+            />
 
-            <ul class="rest-img-list list">
-              <li>
-                <picture class="rest-table-slider">
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-table-lpt.jpg    1x,
-                      ../img/restaurant/rest-table-lpt@2x.jpg 2x
-                    "
-                    media="(min-width:1200px)"
-                    type="image/jpg"
-                  />
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-table-tbl.jpg    1x,
-                      ../img/restaurant/rest-table-tbl@2x.jpg 2x
-                    "
-                    media="(min-width:768px)"
-                    type="image/jpg"
-                  />
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-table-mbl.jpg    1x,
-                      ../img/restaurant/rest-table-mbl@2x.jpg 2x
-                    "
-                    media="(max-width:767px)"
-                    type="image/jpg"
-                  />
+            <img
+              src="./img/restaurant/rest-table-mbl.jpg"
+              alt="Tables in the restaurant"
+              class=""
+            />
+          </picture>
+        </li>
 
-                  <img
-                    src="../img/restaurant/rest-table-mbl.jpg"
-                    alt="Tables in the restaurant"
-                    class=""
-                  />
-                </picture>
-              </li>
-
-              <li>
-                <picture class="rest-food-slider">
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-food-lpt.jpg    1x,
-                      ../img/restaurant/rest-food-lpt@2x.jpg 2x
-                    "
-                    media="(min-width:1200px)"
-                    type="image/jpg"
-                  />
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-food-tbl.jpg    1x,
-                      ../img/restaurant/rest-food-tbl@2x.jpg 2x
-                    "
-                    media="(min-width:768px)"
-                    type="image/jpg"
-                  />
-                  <source
-                    srcset="
-                      ../img/restaurant/rest-food-mbl.jpg    1x,
-                      ../img/restaurant/rest-food-mbl@2x.jpg 2x
-                    "
-                    media="(max-width:767px)"
-                    type="image/jpg"
-                  />
-                  <img
-                    src="../img/restaurant/rest-food-mbl.jpg"
-                    alt="Food in the restaurant"
-                    class=""
-                  />
-                </picture>
-              </li>
-            </ul>
-          </div>
-          <div class="rest-arrs-text">
-            <ul class="rest-arrs">
-              <li>
-                <svg class="rest-arr-right" width="36px" height="36px">
-                  <use href="../img/svg-images/icons.svg#icon-arr-left"></use>
-                </svg>
-              </li>
-              <li>
-                <svg class="rest-arr-left" width="36px" height="36px">
-                  <use href="../img/svg-images/icons.svg#icon-arr-right"></use>
-                </svg>
-              </li>
-            </ul>
-            <p class="rest-simple-text">
-              Whether you're in the mood for a hearty breakfast, a light lunch,
-              or a romantic dinner, our menu has something for everyone.
+        <li>
+          <picture class="rest-food-slider">
+            <source
+              srcset="
+                ./img/restaurant/rest-food-lpt.jpg    1x,
+                ./img/restaurant/rest-food-lpt@2x.jpg 2x
+              "
+              media="(min-width:1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="
+                ./img/restaurant/rest-food-tbl.jpg    1x,
+                ./img/restaurant/rest-food-tbl@2x.jpg 2x
+              "
+              media="(min-width:768px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="
+                ./img/restaurant/rest-food-mbl.jpg    1x,
+                ./img/restaurant/rest-food-mbl@2x.jpg 2x
+              "
+              media="(max-width:767px)"
+              type="image/jpg"
+            />
+            <img
+              src="./img/restaurant/rest-food-mbl.jpg"
+              alt="Food in the restaurant"
+              class=""
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+    <div class="rest-arrs-text">
+      <ul class="rest-arrs">
+        <li>
+          <svg class="rest-arr-right" width="36px" height="36px">
+            <use href="./img/svg-images/icons.svg#icon-arr-left"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="rest-arr-left" width="36px" height="36px">
+            <use href="./img/svg-images/icons.svg#icon-arr-right"></use>
+          </svg>
+        </li>
+      </ul>
+      <p class="rest-simple-text">
+        Whether you're in the mood for a hearty breakfast, a light lunch, or a
+        romantic dinner, our menu has something for everyone.
+      </p>
+    </div>
+  </div>
+</section>
+<!--===================== /RESTAURANT =====================-->
+<!--===================== RESTAURANT-ABOUT-A-KITCHEN =====================-->
+<section class="container rest-about-kitchen">
+  <div class="">
+    <h1 class="visualy-hidden">Restaurant page About Kitchen</h1>
+    <ul class="list rest-ak-cards">
+      <li class="rest-cook-one-card">
+        <picture>
+          <source
+            media="(min-width:1440px)"
+            srcset="
+              ./img/rest-about-kitchen/rest-ak-cook-lpt.jpg    1x,
+              ./img/rest-about-kitchen/rest-ak-cook-lpt@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./img/rest-about-kitchen/rest-ak-cook-tbl.jpg    1x,
+              ./img/rest-about-kitchen/rest-ak-cook-tbl@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./img/rest-about-kitchen/rest-ak-cook-mbl.jpg    1x,
+              ./img/rest-about-kitchen/rest-ak-cook-mbl@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            src="./img/rest-about-kitchen/rest-ak-cook-mbl.jpg"
+            alt="Cook"
+            class="rest-ak-cook cook-lpt"
+          />
+        </picture>
+      </li>
+      <!--====================== ДВІ КАРТКИ НА ТАБЛЕТ -->
+      <li class="rest-two-cards">
+        <ul class="rest-two-card" >
+          <li>
+            <picture>
+              <source
+                media="(min-width:1440px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-meat-lpt.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-meat-lpt@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-meat-tbl.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-meat-tbl@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-meat-mbl.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-meat-mbl@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="./img/rest-about-kitchen/rest-ak-meat-mbl.jpg"
+                alt="meat"
+                class="rest-ak-meat"
+              />
+            </picture>
+            <p class="rest-ak-simple-text rest-ak-text-lpt">
+              At Mimino, we are experts in meat preparation. Our chefs use only
+              the finest and freshest ingredients to create delicious dishes
+              that showcase the flavors of premium cuts of meat.
             </p>
-          </div>
-        </div>
-      </section>
-      <!--===================== /RESTAURANT =====================-->
+          </li>
+
+          <li>
+            <picture>
+              <source
+                media="(min-width:1440px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-drink-lpt.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-drink-lpt@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-drink-tbl.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-drink-tbl@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/rest-about-kitchen/rest-ak-drink-mbl.jpg    1x,
+                  ./img/rest-about-kitchen/rest-ak-drink-mbl@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/rest-about-kitchen/rest-ak-cook-mbl.jpg"
+                alt="drink"
+                class="rest-ak-drink"
+              />
+            </picture>
+            <p class="rest-ak-simple-text rest-ak-text-lpt">
+              Our slow-cooking process and expert seasoning bring out the best
+              in each dish, making for an unforgettable dining experience. Come
+              taste the magic of meat preparation at Mimino.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="list rest-about-kitchen-txt">
+      <li class="rest-ak-first-txt">
+        <p class="rest-ak-simple-text">
+          At Mimino, we are experts in meat preparation. Our chefs use only the
+          finest and freshest ingredients to create delicious dishes that
+          showcase the flavors of premium cuts of meat.
+        </p>
+      </li>
+      <li class="rest-ak-second-txt">
+        <p class="rest-ak-simple-text">
+          Our slow-cooking process and expert seasoning bring out the best in
+          each dish, making for an unforgettable dining experience. Come taste
+          the magic of meat preparation at Mimino.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--===================== /RESTAURANT-ABOUT-A-KITCHEN =====================-->

@@ -1,0 +1,151 @@
+.triple-room-descr .title-triple-room {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 24px;
+}
+.triple-room-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  width: 335px;
+}
+.mb-main-img {
+  margin-bottom: 20px;
+}
+
+.img-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mb-img-hidden-triple {
+  margin-bottom: 32px;
+}
+.dp-one {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-triple-room {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+  }
+  .triple-room-descr .triple-room-description {
+    margin-bottom: 0;
+  }
+  .dp {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 32px;
+  }
+  .dp-one {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-list {
+    gap: 32px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mb-img-hidden-triple {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1439px) {
+  .dsk-img-hidden-triple {
+    display: none;
+  }
+}
+
+.img-height {
+  width: 266px;
+  height: 309px;
+}
+.container.triple-room-details {
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.tr-room-btn.btn {
+  min-width: 0;
+  margin: 0;
+}
+.triple-room-btn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 36px;
+}
+.tbl-img-room-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .triple-room-btn {
+    margin-top: 48px;
+  }
+  .tbl-img-two {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .mb-hidden-triple-room {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .dsk-hidden-triple-room {
+    display: none;
+  }
+  .triple-desk-img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 50px;
+  }
+  .desk-descr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+  }
+  .triple-room-btn {
+    margin-top: 0;
+    margin-right: 337px;
+  }
+
+  .triple-room-descr {
+    margin-bottom: 0;
+  }
+  .triple-desk-descr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .triple-room-descr .title-triple-room {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px), (min-width: 1440px) {
+  .tbl-img-hidden-triple {
+    display: none;
+  }
+}

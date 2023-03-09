@@ -1,223 +1,219 @@
-<section class="container hotel-hero">
- hotel-page-hero-css
-  <div class="hotel-hero-box2">
-    <div class="hotel-hero-box1">
-      <h1 class="heading-hotel">Hotel</h1>
-      <div class="btn-hotel-div">
-        <button class="btn btn-dark" type="button">book a room</button>
-        <button class="btn btn-dark" type="button">View prices</button>
+<section>
+  <div class="container hotel-hero">
+    <div class="hotel-hero-box2">
+      <div class="hotel-hero-box1">
+        <h1 class="heading-hotel">Hotel</h1>
+        <div class="btn-hotel-div">
+          <button type="button" class="btn btn-dark" data-modal-room-open>
+            book a room
+          </button>
+          <button type="button" class="btn btn-dark" data-modal-price-open>
+            View prices
+          </button>
+        </div>
+      </div>
+      <div class="hotel-img-box">
+        <picture>
+          <source
+            media="(min-width:1200px)"
+            srcset="
+              ./img/hp/hero/hero-desk/hero_desk@1x.webp 1x,
+              ./img/hp/hero/hero-desk/hero_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width:1200px)"
+            srcset="
+              ./img/hp/hero/hero-desk/hero_desk@1x.jpg 1x,
+              ./img/hp/hero/hero-desk/hero_desk@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./img/hp/hero/hero-tab/hero_tab@1x.webp 1x,
+              ./img/hp/hero/hero-tab/hero_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="
+              ./img/hp/hero/hero-tab/hero_tab@1x.jpg 1x,
+              ./img/hp/hero/hero-tab/hero_tab@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./img/hp/hero/hero-mob/hero_mob@1x.webp 1x,
+              ./img/hp/hero/hero-mob/hero_mob@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="
+              ./img/hp/hero/hero-mob/hero_mob@1x.jpg 1x,
+              ./img/hp/hero/hero-mob/hero_mob@2x.jpg 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            src="./img/hp/hero/hero-mob/hero_mob@1x.jpg"
+            alt="hero"
+            width="250"
+            height="429"
+            class="img-hh"
+          />
+        </picture>
+        <div class="img-hidden">
+          <picture>
+            <source
+              media="(min-width:1200px)"
+              srcset="
+                ./img/hp/hero/hero-desk/hero2_desk@1x.webp 1x,
+                ./img/hp/hero/hero-desk/hero2_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:1200px)"
+              srcset="
+                ./img/hp/hero/hero-desk/hero2_desk@1x.jpg 1x,
+                ./img/hp/hero/hero-desk/hero2_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hp/hero/hero-tab/hero2_tab@1x.webp 1x,
+                ./img/hp/hero/hero-tab/hero2_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hp/hero/hero-tab/hero2_tab@1x.jpg 1x,
+                ./img/hp/hero/hero-tab/hero2_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/hp/hero/hero-mob/hero2_mob@1x.webp 1x,
+                ./img/hp/hero/hero-mob/hero2_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/hp/hero/hero-mob/hero2_mob@1x.jpg 1x,
+                ./img/hp/hero/hero-mob/hero2_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./img/hp/hero/hero-mob/hero2_mob@1x.jpg"
+              alt="hero2"
+              width="250"
+              height="429"
+              class="img-hh"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width:1200px)"
+              srcset="
+                ./img/hp/hero/hero-desk/hero3_desk@1x.webp 1x,
+                ./img/hp/hero/hero-desk/hero3_desk@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:1200px)"
+              srcset="
+                ./img/hp/hero/hero-desk/hero3_desk@1x.jpg 1x,
+                ./img/hp/hero/hero-desk/hero3_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hp/hero/hero-tab/hero3_tab@1x.webp 1x,
+                ./img/hp/hero/hero-tab/hero3_tab@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./img/hp/hero/hero-tab/hero3_tab@1x.jpg 1x,
+                ./img/hp/hero/hero-tab/hero3_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/hp/hero/hero-mob/hero3_mob@1x.webp 1x,
+                ./img/hp/hero/hero-mob/hero3_mob@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./img/hp/hero/hero-mob/hero3_mob@1x.jpg 1x,
+                ./img/hp/hero/hero-mob/hero3_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              src="./img/hp/hero/hero-mob/hero3_mob@1x.jpg"
+              alt="hero3"
+              width="250"
+              height="429"
+              class="img-hh"
+            />
+          </picture>
+        </div>
       </div>
     </div>
-    <div class="hotel-img-box">
-  <div class="hotel-hero-box1">
-    <h1 class="heading-hotel">Hotel</h1>
-    <div class="btn-hotel-div">
-      <button class="btn btn-dark" type="button">book a room</button>
-      <button class="btn btn-dark" type="button">View prices</button>
+    <div class="tablet-box">
+      <div class="slider-btn-box">
+        <button class="slider-btn" type="button">
+          <svg class="slider-btn-svg" width="24" height="24">
+            <use href="./img/svg-images/icons.svg#arr-left"></use>
+          </svg>
+        </button>
+        <button class="slider-btn" type="button">
+          <svg class="slider-btn-svg" width="24" height="24">
+            <use href="./img/svg-images/icons.svg#arr-right"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="paragraph paragraph-ht">
+        Whether you're in the mood for a hearty breakfast, a light lunch, or a
+        romantic dinner, our menu has something for everyone.
+      </p>
     </div>
   </div>
-  <div class="hotel-img-box">
-    <div class="hotel-hero-box2">
-      <picture>
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero_desk@1x.webp 1x,
-            ../img/hp/hero/hero-desk/hero_desk@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero_desk@1x.jpg 1x,
-            ../img/hp/hero/hero-desk/hero_desk@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero_tab@1x.webp 1x,
-            ../img/hp/hero/hero-tab/hero_tab@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero_tab@1x.jpg 1x,
-            ../img/hp/hero/hero-tab/hero_tab@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero_mob@1x.webp 1x,
-            ../img/hp/hero/hero-mob/hero_mob@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero_mob@1x.jpg 1x,
-            ../img/hp/hero/hero-mob/hero_mob@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <img
-          src="../img/hp/hero/hero-mob/hero_mob@1x.jpg"
-          alt="hero"
-          width="250"
-          height="429"
-          class="img-hh"
-        />
-      </picture>
-      <picture>
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero2_desk@1x.webp 1x,
-            ../img/hp/hero/hero-desk/hero2_desk@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero2_desk@1x.jpg 1x,
-            ../img/hp/hero/hero-desk/hero2_desk@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero2_tab@1x.webp 1x,
-            ../img/hp/hero/hero-tab/hero2_tab@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero2_tab@1x.jpg 1x,
-            ../img/hp/hero/hero-tab/hero2_tab@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero2_mob@1x.webp 1x,
-            ../img/hp/hero/hero-mob/hero2_mob@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero2_mob@1x.jpg 1x,
-            ../img/hp/hero/hero-mob/hero2_mob@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <img
-          src="../img/hp/hero/hero-mob/hero2_mob@1x.jpg"
-          alt="hero2"
-          width="250"
-          height="429"
-          class="img-hh"
-        />
-      </picture>
-      <picture>
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero3_desk@1x.webp 1x,
-            ../img/hp/hero/hero-desk/hero3_desk@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:1200px)"
-          srcset="
-            ../img/hp/hero/hero-desk/hero3_desk@1x.jpg 1x,
-            ../img/hp/hero/hero-desk/hero3_desk@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero3_tab@1x.webp 1x,
-            ../img/hp/hero/hero-tab/hero3_tab@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/hp/hero/hero-tab/hero3_tab@1x.jpg 1x,
-            ../img/hp/hero/hero-tab/hero3_tab@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero3_mob@1x.webp 1x,
-            ../img/hp/hero/hero-mob/hero3_mob@2x.webp 2x
-          "
-          type="image/webp"
-        />
-        <source
-          media="(max-width:767px)"
-          srcset="
-            ../img/hp/hero/hero-mob/hero3_mob@1x.jpg 1x,
-            ../img/hp/hero/hero-mob/hero3_mob@2x.jpg 2x
-          "
-          type="image/jpg"
-        />
-        <img
-          src="../img/hp/hero/hero-mob/hero3_mob@1x.jpg"
-          alt="hero3"
-          width="250"
-          height="429"
-          class="img-hh"
-        />
-      </picture>
-    </div>
-  </div>
-  <div class="slider-btn-box">
-    <button class="slider-btn" type="button">
-      <svg class="slider-btn-svg" width="24" height="24">
-        <use href="./img/svg-images/icons.svg#icon-arr-left"></use>
-
-        </div>
-        </picture>
-    </div>
-  <div class="slider-btn-box">
-    <button class="slider-btn" type="button">
-      <svg class="slider-btn-svg" width="24" height="24">
-        <use href="./svg-images/icons.svg#icon-arr-left"></use>
-
-      </svg>
-    </button>
-    <button class="slider-btn" type="button">
-      <svg class="slider-btn-svg" width="24" height="24">
-        <use href="./img/svg-images/icons.svg#icon-arr-right"></use>
-
-        <use href="./svg-images/icons.svg#icon-arr-right"></use>
-      </svg>
-    </button>
-  </div>
-
-  <p class="paragraph-ht">
-  <p class="paragraph paragraph-ht">
-    Whether you're in the mood for a hearty breakfast, a light lunch, or a
-    romantic dinner, our menu has something for everyone.
-  </p>
 </section>
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script src="./js/modal.js"></script>
+
+<script src="./js/modal-room.js"></script>
