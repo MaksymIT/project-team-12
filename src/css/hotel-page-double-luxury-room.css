@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-box {
         position: relative;
     }
@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-heading {}
 }
 
@@ -55,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-paragraph1 {
         min-width: 300px;
         max-width: 355px;
@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-paragraph2 {
         max-width: 299px;
     }
@@ -101,7 +101,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .pbox {}
 }
 
@@ -117,7 +117,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-btn-box {
         position: absolute;
         top: 1px;
@@ -131,7 +131,7 @@ p:last-child {
     .dr-box {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .dr-box {}
 
 }
@@ -144,7 +144,7 @@ p:last-child {
     .mob-set-img1 {}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .mob-set-img1 {
         margin-bottom: 50px;
     }
@@ -162,7 +162,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .mob-set-img2 {}
 }
 
@@ -176,7 +176,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .img-dr-1 {
         width: 539px;
         position: relative;
@@ -195,7 +195,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .img-dr-2 {
         width: 386px;
         position: absolute;
@@ -215,7 +215,7 @@ p:last-child {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .img-dr-3 {
         width: 387px;
         position: absolute;
