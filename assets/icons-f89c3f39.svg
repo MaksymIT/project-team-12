@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+       <symbol id="arr-right" viewBox="0 0 18 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m2 30 14-14L2 2"/>
+    </symbol>
+    <symbol id="arr-left" viewBox="0 0 18 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M16 30 2 16 16 2"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 32 32">
+      <path fill="none" stroke="#121212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 2.667h-4a6.67 6.67 0 0 0-6.667 6.667v4h-4v5.333h4v10.667h5.333V18.667h4l1.333-5.333h-5.333v-4A1.334 1.334 0 0 1 20 8h4V2.667z" style="stroke:var(--color1, #121212)"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 32 32">
+      <path fill="none" stroke="#121212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.667 2.667H9.334a6.667 6.667 0 0 0-6.667 6.667v13.333a6.667 6.667 0 0 0 6.667 6.667h13.333a6.667 6.667 0 0 0 6.667-6.667V9.334a6.667 6.667 0 0 0-6.667-6.667z" style="stroke:var(--color1, #121212)"/>
+      <path fill="none" stroke="#121212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21.334 15.16a5.329 5.329 0 0 1-2.878 5.546 5.338 5.338 0 0 1-6.169-.992 5.33 5.33 0 0 1 1.316-8.505 5.336 5.336 0 0 1 6.228.962 5.328 5.328 0 0 1 1.504 2.989zM23.333 8.667h.016" style="stroke:var(--color1, #121212)"/>
+    </symbol>
+     <symbol id="icon-twitter" viewBox="0 0 32 32">
+      <path fill="none" stroke="#121212" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30.667 4a14.542 14.542 0 0 1-4.187 2.04 5.975 5.975 0 0 0-6.637-1.661A5.981 5.981 0 0 0 16 10.04v1.333a14.211 14.211 0 0 1-12-6.04s-5.333 12 6.667 17.333a15.519 15.519 0 0 1-9.333 2.667c12 6.667 26.667 0 26.667-15.333a5.966 5.966 0 0 0-.107-1.107A10.288 10.288 0 0 0 30.667 4z" style="stroke:var(--color1, #121212)"/>
+    </symbol>
+    <symbol id="icon-facebook-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#F6F6F6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 2.667h-4a6.67 6.67 0 0 0-6.667 6.667v4h-4v5.333h4v10.667h5.333V18.667h4l1.333-5.333h-5.333v-4A1.334 1.334 0 0 1 20 8h4V2.667z" style="stroke:var(--color1, #F6F6F6)"/>
+    </symbol>
+    <symbol id="icon-instagram-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#F6F6F6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.667 2.667H9.334a6.667 6.667 0 0 0-6.667 6.667v13.333a6.667 6.667 0 0 0 6.667 6.667h13.333a6.667 6.667 0 0 0 6.667-6.667V9.334a6.667 6.667 0 0 0-6.667-6.667z" style="stroke:var(--color1, #F6F6F6)"/>
+      <path fill="none" stroke="#F6F6F6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21.334 15.16a5.329 5.329 0 0 1-2.878 5.546 5.338 5.338 0 0 1-6.169-.992 5.33 5.33 0 0 1 1.316-8.505 5.336 5.336 0 0 1 6.228.962 5.328 5.328 0 0 1 1.504 2.989zM23.333 8.667h.016" style="stroke:var(--color1, #F6F6F6)"/>
+    </symbol>
+     <symbol id="icon-twitter-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#F6F6F6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30.667 4a14.542 14.542 0 0 1-4.187 2.04 5.975 5.975 0 0 0-6.637-1.661A5.981 5.981 0 0 0 16 10.04v1.333a14.211 14.211 0 0 1-12-6.04s-5.333 12 6.667 17.333a15.519 15.519 0 0 1-9.333 2.667c12 6.667 26.667 0 26.667-15.333a5.966 5.966 0 0 0-.107-1.107A10.288 10.288 0 0 0 30.667 4z" style="stroke:var(--color1, #F6F6F6)"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4.114" d="M29.334 2.667 2.667 29.334m0-26.667 26.667 26.667"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 48 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="7.2" d="m4 6 20 20L44 6"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 48 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M3 16h42M3 2h42M3 30h28"/>
+    </symbol>
+  </defs>
+</svg>
+
