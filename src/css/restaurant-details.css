@@ -66,8 +66,8 @@
   height: 309px;
 }
 .container.restaurant-details {
-  margin-bottom: 50px;
-  margin-top: 60px;
+  padding-bottom: 50px;
+  padding-top: 60px;
 }
 .restaurant-btn {
   display: flex;
