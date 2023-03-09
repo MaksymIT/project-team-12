@@ -16,17 +16,20 @@
 
 .hotel-hero {
     padding-top: 40px;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
+    
 }
 @media screen and (min-width: 768px) {
     .hotel-hero {
         padding-bottom: 40px;
+        margin-bottom: 80px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hotel-hero {
         padding-bottom: 30px;
+        margin-bottom: 100px;
         position: relative;
     }
 }
@@ -182,6 +185,10 @@ text-transform: uppercase;
     }
 }
 
+.img-hidden {
+    display: none;
+}
+
 
 
 .hotel-img-box {
@@ -196,13 +203,14 @@ text-transform: uppercase;
 @media screen and (min-width: 768px) {
     .hotel-img-box {
         gap: 32px;
+        
     }
 }
 
 @media screen and (min-width: 1200px) {
     .hotel-img-box {
         gap: 32px;
-        padding-bottom: 27px;
+        padding-bottom: 52px;
     }
 }
 .img-hh {

@@ -59,6 +59,9 @@
 .tbl-img-hidden {
   margin-bottom: 40px;
 }
+.room-main .cursive{
+  font-style: italic;
+}
 
 @media screen and (min-width: 768px) {
   .hero-room {
@@ -104,7 +107,7 @@
     display: flex;
   }
   .dsk-img-hidden {
-    margin-left: 90px;
+    margin-left: 200px;
   }
   .room-title {
     font-size: 80px;
@@ -113,14 +116,14 @@
     margin-bottom: 42px;
     width: 592px;
   }
-  /* .room-wrapper {
+  .container {
     position: relative;
   }
   .room-descr {
     position: absolute;
-    bottom: -37%;
+    bottom: -75px;
     left: 35px;
-  } */
+  }
 }
 
 .img-room {
