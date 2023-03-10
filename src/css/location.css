@@ -221,3 +221,40 @@
     }
    }
 
+
+/* MAP styles */
+#map {
+    width: 335px;
+    height: 384px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media screen and (min-width: 768px) {
+    #map {
+        width: 704px;
+        height: 576px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #map {
+        width: 640px;
+        height: 524px;
+    }
+}
+
+/* .leaflet-popup-content,
+.leaflet-popup-tip,
+.leaflet-popup-pane {
+    display: none;
+} */
+
+.leaflet-popup-close-button {
+    display: none; 
+}
+
+.leaflet-popup-content {
+    width: 150px; 
+    text-align: center;
+}
