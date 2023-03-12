@@ -6,7 +6,9 @@
         <h1 class="restaurant-title">Restaurant</h1>
         <ul class="btns-rest-hero list">
           <li>
-            <button class="btn btn-dark" type="button">BOOK A TABLE</button>
+            <button class="btn btn-dark" data-modal-room-open type="button">
+              BOOK A TABLE
+            </button>
           </li>
           <li>
             <button class="btn btn-dark" type="button">VIEW A MENU</button>
@@ -14,8 +16,8 @@
         </ul>
       </div>
 
-      <ul class="rest-img-list list">
-        <li>
+      <ul class="slider-room rest-img-list list">
+        <li class="slider-item">
           <picture class="rest-table-slider">
             <source
               srcset="
@@ -50,7 +52,7 @@
           </picture>
         </li>
 
-        <li>
+        <li class="slider-item">
           <picture class="rest-food-slider">
             <source
               srcset="
@@ -146,7 +148,7 @@
       </li>
       <!--====================== ДВІ КАРТКИ НА ТАБЛЕТ -->
       <li class="rest-two-cards">
-        <ul class="rest-two-card" >
+        <ul class="rest-two-card">
           <li>
             <picture>
               <source
