@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RESTAURANT</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" 
-     rel="stylesheet">
-  
-  <link>
-  <link rel="stylesheet" href="/project-team-12/assets/styles-fa99f1dc.css">
-</head>
-<body>
-
-  <!-- Header -->
-  <header>
-    <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESTAURANT</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link />
+    <link rel="stylesheet" href="/project-team-12/assets/styles-0029829b.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <header class="header">
   <div class="header-wrapper container">
     <button
       class="menu-toggle js-open-menu"
@@ -130,14 +133,12 @@
 ></script>
 <script defer src="./js/mobile-menu.js"></script>
 
-  </header>
-  
-  <!-- main -->
-  <main>
-  
-    <!-- section -->
-    <section>
-      <!--===================== RESTAURANT =====================-->
+    </header>
+    <!-- main -->
+    <main>
+      <!-- section -->
+      <section>
+        <!--===================== RESTAURANT =====================-->
 <section class="container hero-restaurant">
   <div class="">
     <div class="rest-wrapper-lpt">
@@ -145,7 +146,9 @@
         <h1 class="restaurant-title">Restaurant</h1>
         <ul class="btns-rest-hero list">
           <li>
-            <button class="btn btn-dark" type="button">BOOK A TABLE</button>
+            <button class="btn btn-dark" data-modal-table-open type="button">
+              BOOK A TABLE
+            </button>
           </li>
           <li>
             <button class="btn btn-dark" type="button">VIEW A MENU</button>
@@ -153,8 +156,8 @@
         </ul>
       </div>
 
-      <ul class="rest-img-list list">
-        <li>
+      <ul class="slider-room rest-img-list list">
+        <li class="slider-item">
           <picture class="rest-table-slider">
             <source
               srcset="/project-team-12/assets/rest-table-lpt-9915a082.jpg 1x, /project-team-12/assets/rest-table-lpt@2x-c45e51ac.jpg 2x"
@@ -180,7 +183,7 @@
           </picture>
         </li>
 
-        <li>
+        <li class="slider-item">
           <picture class="rest-food-slider">
             <source
               srcset="/project-team-12/assets/rest-food-lpt-1112fe7e.jpg 1x, /project-team-12/assets/rest-food-lpt@2x-4273c0db.jpg 2x"
@@ -258,7 +261,7 @@
       </li>
       <!--====================== ДВІ КАРТКИ НА ТАБЛЕТ -->
       <li class="rest-two-cards">
-        <ul class="rest-two-card" >
+        <ul class="rest-two-card">
           <li>
             <picture>
               <source
@@ -342,8 +345,7 @@
 </section>
 <!--===================== /RESTAURANT-ABOUT-A-KITCHEN =====================-->
 
-
-      
+        
 <body>
     <!--RESTAURANT MENU-->
     <section class="sections-of-menu">
@@ -584,13 +586,11 @@
 
 
 
-  
-    </section>
-
+      </section>
     </main>
     <!-- footer -->
-    <footer>
-      <div class="page-footer container">
+      <footer>
+        <div class="page-footer container">
   <div class="footer-wrapper">
     <ul class="footer-desk-list list">
       <li class="footer-desk-list-item">
@@ -635,6 +635,86 @@
   </div>
 </div>
 
-    </footer>
-  </html>
-</body>
+      </footer>
+
+      <!--Modal PRICES PER ROOM-->
+<div class="backdrop is-hidden" data-modal-price>
+  <div class="modal">
+    <button class="modal-btn" type="button" data-modal-price-close>
+      <svg class="customers-icon" width="24" height="24">
+        <use href="/project-team-12/assets/icons-cfd7fa20.svg#icon-header-menu-close"></use>
+      </svg>
+    </button>
+    <strong class="title-of-modal">PRICES PER ROOM</strong>
+    <form action="" class="form">
+      <label class="modal-label">
+        <span>DOUBLE SUITE</span>
+        <input
+          type="number"
+          class="modal-input"
+          name="weight"
+          min="1"
+          max="150"
+          step="1"
+          required
+        />
+        <span class="modal-under-input">NUMBER OF NIGHTS</span>
+      </label>
+      <label class="modal-label">
+        <span class="span-hidden">fd</span>
+        <input type="date" class="modal-input" required />
+        <span class="modal-under-input">UAH</span>
+      </label>
+    </form>
+    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+  </div>
+</div>
+
+      <!--Modal BOOK A TABLE-->
+<div class="backdrop is-hidden" data-modal-table>
+  <div class="modal modal-room">
+    <button class="modal-btn" type="button" data-modal-table-close>
+      <svg class="customers-icon" width="24" height="24">
+        <use href="/project-team-12/assets/icons-cfd7fa20.svg#icon-header-menu-close"></use>
+      </svg>
+    </button>
+    <strong class="title-of-modal">BOOK A TABLE</strong>
+    <form action="" class="form">
+      <div>
+        <label class="modal-label">
+          YOUR NAME
+          <input type="text" class="modal-input" />
+          <span class="modal-under-input">WHO SHOULD BOOK A TABLE FOR?</span>
+        </label>
+        <label class="modal-label">
+          NUMBER OF PEOPLE
+          <input
+            type="number"
+            class="modal-input"
+            name="number_of_people"
+            min="1"
+            max="12"
+          />
+        </label>
+      </div>
+      <div>
+        <label class="modal-label">
+          TODAY
+          <input type="date" class="modal-input" />
+          <span class="modal-under-input">WHAT DATE TO BOOK?</span>
+        </label>
+        <label class="modal-label">
+          <input type="tel" class="modal-input" placeholder="+38()" />
+          <span class="modal-under-input">PHONE NUMBER</span>
+        </label>
+      </div>
+    </form>
+    <button type="submit" class="modal-button">MAKE A RESERVATION</button>
+  </div>
+</div>
+
+
+    <script src="./js/modal-table.js"></script>   
+
+  </body>
+</html>
